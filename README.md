@@ -1,2 +1,1 @@
-# portfolio
-Evan C. Navarro's portfolio website; highlighting work done, personal information, and contact details.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
