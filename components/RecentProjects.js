@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { ProjectCard } from "../components/ProjectCard";
 
 export default function RecentProjects() {
   return (
@@ -19,6 +20,10 @@ export default function RecentProjects() {
           </a>
         </Link>
       </div>
+
+      <ProjectCard identifier="FamilyChat"/>
+      <ProjectCard identifier="Objectively"/>
+      <ProjectCard identifier="Notes"/>
 
       <Link href="/projects">
         <a className="group flex justify-center">

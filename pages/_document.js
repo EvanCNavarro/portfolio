@@ -13,7 +13,11 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html
+        lang="en"
+        className="scroll-smooth"
+        style={{ scrollBehavior: "smooth" }}
+      >
         <Head>{CssBaseline.flush()}</Head>
         <body>
           <Main />
