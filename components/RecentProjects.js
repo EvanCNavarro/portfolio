@@ -20,17 +20,28 @@ export default function RecentProjects() {
           </a>
         </Link>
       </div>
-
-      <ProjectCard identifier="FamilyChat"/>
-      <ProjectCard identifier="Objectively"/>
-      <ProjectCard identifier="Notes"/>
+      <Link href="/projects/familychat">
+        <a>
+          <ProjectCard identifier="FamilyChat" />
+        </a>
+      </Link>
+      <Link href="/projects/familychat">
+        <a>
+          <ProjectCard identifier="Objectively" />
+        </a>
+      </Link>
+      <Link href="/projects/familychat">
+        <a>
+          <ProjectCard identifier="Notes" />
+        </a>
+      </Link>
 
       <Link href="/projects">
         <a className="group flex justify-center">
           <button className=" text-white font-bold p-2 bg-offBlack hover:bg-offBlack/75 rounded outline-none w-280 h-52">
             <div className="inline-flex items-center space-x-3 ml-12 mr-12">
               <div className="text-base">View All Projects</div>
-              <MdArrowForward className="" size={20}/>
+              <MdArrowForward className="" size={20} />
             </div>
           </button>
         </a>

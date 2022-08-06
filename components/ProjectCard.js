@@ -19,14 +19,7 @@ export const ProjectCard = ({ identifier, ...props }) => {
       projectAward: false,
       awardDescription: ``,
       projectImage: "/project_banner_objectively.png",
-      projectTech: [
-        "React Native",
-        "Firebase",
-        "Express",
-        "MongoDB",
-        "Mongoose",
-        "Socket.io",
-      ],
+      projectTech: ["Figma", "Vue", "UIKit", "UX", "Personas", "Web App"],
     },
     FamilyChat: {
       projectName: "FamilyChat",
@@ -37,12 +30,12 @@ export const ProjectCard = ({ identifier, ...props }) => {
       awardDescription: `Winner of UCF's Spring 2022 Senior Design "Best in Show"`,
       projectImage: "/project_banner_familychat.png",
       projectTech: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Mongoose",
-        "Socket.io",
+        "Figma",
+        "React Native",
+        "iOS",
+        "Expo",
+        "Firebase",
+        "Mobile",
       ],
     },
     Notes: {
@@ -52,14 +45,7 @@ export const ProjectCard = ({ identifier, ...props }) => {
       projectAward: false,
       awardDescription: ``,
       projectImage: "/project_banner_familychat.png",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Mongoose",
-        "Socket.io",
-      ],
+      projectTech: ["Figma", "MUI", "NextJS", "Framer", "Node", "CosmosDB"],
     },
   };
 
@@ -75,10 +61,30 @@ export const ProjectCard = ({ identifier, ...props }) => {
                 </h3>
               </div>
 
-              <div className="w-full h-160 rounded-t bg-offBeige"></div>
+              <div className="flex w-full h-160 bg-offBeige group-hover:bg-offBlack transition-all ease-in duration-225 justify-center">
+                <img
+                  src="/project_banner_familyChat.png"
+                  alt="FamilyChat Project Banner"
+                  className="w-fit h-160 pl-20 pr-20"
+                />
+              </div>
             </div>
           ) : (
-            <div className="w-full h-240 rounded-t bg-offBeige"></div>
+            <div className="flex w-full h-240 bg-offBeige rounded-t transition-all ease-in duration-225 group-hover:bg-offBlack justify-center">
+              {projectInformation[identifier].projectName == "Objectively" ? (
+                <img
+                  src="/objectively.png"
+                  alt="Objectively Project Banner"
+                  className="w-fit h-240 p-16 ml-8 object"
+                />
+              ) : (
+                <img
+                  src="/project_banner_notes.png"
+                  alt="Notes Project Banner"
+                  className="w-fit h-240"
+                />
+              )}
+            </div>
           )}
 
           <div className="m-20">
@@ -90,6 +96,17 @@ export const ProjectCard = ({ identifier, ...props }) => {
               <h3 className="font-medium text-16 text-offGray">
                 {projectInformation[identifier].projectDescription}
               </h3>
+            </div>
+
+            <div className="flex flex-wrap mt-16">
+              {projectInformation[identifier].projectTech.map((listOfTech) => (
+                <div
+                  key={listOfTech.id}
+                  className="w-fit h-fit pt-8 pb-8 pl-12 pr-12 mr-8 mb-8 rounded-full bg-offGray transition-all ease-in duration-225 group-hover:bg-offBlack text-12"
+                >
+                  <div className="font-medium text-offWhite">{listOfTech}</div>
+                </div>
+              ))}
             </div>
 
             <button className="flex mt-24 mb-24 pt-8 pb-8 pl-16 pr-16 bg-offWhite text-offBlack rounded transition-all ease-in duration-225 border-offGray/0 border-2 group-hover:opacity-100 group-hover:border-offBlack group-hover:shadow-md items-center">

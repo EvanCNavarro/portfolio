@@ -29,15 +29,19 @@ export default function Intro() {
         </h2>
 
         <h2 className="text-24">
-          <medium className="text-offGray mr-4">
-            working remotely out of
-          </medium>
+          <medium className="text-offGray mr-4">working remotely out of</medium>
         </h2>
 
         <h2 className="text-24">
           <strong className="text-offBlack mr-0">Orlando, FL, USA</strong>
           <medium className="text-offGray mr-0">.</medium>
         </h2>
+{/* 
+        <h3 className="text-16 mt-24">
+          <span className="text-offGray font-medium">
+            Design, Development, & Kombucha
+          </span>
+        </h3> */}
       </div>
 
       {/* <Link href="#Projects">

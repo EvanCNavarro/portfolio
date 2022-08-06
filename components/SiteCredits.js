@@ -86,11 +86,10 @@ export default function SiteCredits() {
           </li>
         </ul>
       </div>
-
-      <Link href="https://github.com/EvanCNavarro/portfolio">
-        <a target="_blank" rel="noopener noreferrer">
-          <div className="flex justify-center group mb-32">
-            <div className="flex border-2 border-offGray group-hover:border-offBlack rounded h-fit w-fit pt-8 pb-8 pl-16 pr-16">
+      <div className="flex justify-center mb-32">
+        <Link href="https://github.com/EvanCNavarro/portfolio">
+          <a target="_blank" rel="noopener noreferrer">
+            <div className="group flex border-2 border-offGray hover:border-offBlack rounded h-fit w-fit pt-8 pb-8 pl-16 pr-16">
               <IoLogoGithub
                 className="text-offGray group-hover:text-offBlack"
                 size={24}
@@ -99,9 +98,9 @@ export default function SiteCredits() {
                 View on GitHub
               </span>
             </div>
-          </div>
-        </a>
-      </Link>
+          </a>
+        </Link>
+      </div>
     </>
   );
 }
