@@ -18,8 +18,12 @@ export default function Home() {
       title="Evan C. Navarro's Portfolio"
       description="The personal portfolio website for Evan C. Navarro; showcasing all projects involved with, work experience, contact information, and downloadable resume."
     >
-      <Hero />
-      <Intro />
+      <div className="flex justify-center">
+        <Hero />
+      </div>
+      <div className="flex justify-center">
+        <Intro />
+      </div>
       <RecentProjects />
       <WorkOverview />
       <ContactInformation />
