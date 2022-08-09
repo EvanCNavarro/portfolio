@@ -1,12 +1,11 @@
 import Link from "next/link";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
-import { Tooltip, Button, Grid } from "@nextui-org/react";
+import { Tooltip, Grid } from "@nextui-org/react";
 import { WorkTooltip } from "../components/WorkTooltip";
 
 export default function WorkOverview() {
   return (
     <>
-      <hr class="w-88 h-4 bg-teal mt-40 mb-32" />
+      <hr id="work" class="w-88 h-4 bg-teal mt-40 mb-32" />
 
       <div className="mb-24">
         <Link href="#work">

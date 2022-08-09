@@ -1,10 +1,6 @@
 import Link from "next/link";
-import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
-import { FaGithubAlt, FaTwitter } from "react-icons/fa";
-import { SiInstagram } from "react-icons/si";
-import { FiFigma } from "react-icons/fi";
-import { Tooltip, Button, Grid } from "@nextui-org/react";
-import { MdOpenInNew, MdInfo } from "react-icons/md";
+import { IoLogoGithub } from "react-icons/io";
+import { MdInfo } from "react-icons/md";
 
 export default function SiteCredits() {
   return (

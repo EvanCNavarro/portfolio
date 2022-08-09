@@ -1,14 +1,3 @@
-import React from "react";
-import {
-  Avatar,
-  Row,
-  Col,
-  Text,
-  Button,
-  Spacer,
-  Grid,
-} from "@nextui-org/react";
-
 export const WorkTooltip = ({ identifier, ...props }) => {
   const date = new Date();
   const currentYear = date.getFullYear();
@@ -17,7 +6,8 @@ export const WorkTooltip = ({ identifier, ...props }) => {
   const currentDate = [currentMonth, currentDay, currentYear];
   const startDateUDO = [9, 11, 2020];
   const monthsSinceStartUDO =
-    (((currentDate[2] - startDateUDO[2]) * 12) + (currentDate[0] - startDateUDO[0]));
+    (currentDate[2] - startDateUDO[2]) * 12 +
+    (currentDate[0] - startDateUDO[0]);
 
   const workInformation = {
     Objectively: {

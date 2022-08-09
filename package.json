@@ -6,26 +6,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "build:css": "tailwindcss --postcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css"
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
     "@nextui-org/react": "^1.0.0-beta.9",
+    "cssnano": "^5.1.12",
     "next": "latest",
-    "next-themes": "^0.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "sharp": "^0.30.7",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@types/node": "^18.6.1",
+    "@types/node": "^18.6.3",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "autoprefixer": "^10.4.7",
-    "eslint": "^8.20.0",
-    "eslint-config-next": "^12.2.3",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^12.2.4",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.6"
-  }
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.7"
+  },
+  "packageManager": "yarn@3.2.2"
 }

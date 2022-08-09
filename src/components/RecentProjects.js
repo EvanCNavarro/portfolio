@@ -1,14 +1,15 @@
 import Link from "next/link";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 import { ProjectCard } from "../components/ProjectCard";
 
 export default function RecentProjects() {
   return (
     <>
-      <hr class="w-88 h-4 bg-teal mt-40 mb-32" />
+      <hr id="projects" className="w-88 h-4 bg-teal mt-40 mb-32" />
+
       <div className="mb-24">
         <Link href="#projects">
-          <a className="group mb-24">
+          <a href="#projects" className="group mb-24 ">
             <h1 className=" text-32 mt-0 mb-2 space-x-12">
               <strong className=" text-offGray group-hover:text-offGray/75">
                 #
@@ -20,16 +21,19 @@ export default function RecentProjects() {
           </a>
         </Link>
       </div>
+
       <Link href="/projects/familychat">
         <a>
           <ProjectCard identifier="FamilyChat" />
         </a>
       </Link>
+
       <Link href="/projects/familychat">
         <a>
           <ProjectCard identifier="Objectively" />
         </a>
       </Link>
+
       <Link href="/projects/familychat">
         <a>
           <ProjectCard identifier="Notes" />

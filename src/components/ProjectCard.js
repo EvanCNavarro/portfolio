@@ -1,14 +1,8 @@
-import React from "react";
-import {
-  Avatar,
-  Row,
-  Col,
-  Text,
-  Button,
-  Spacer,
-  Grid,
-} from "@nextui-org/react";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
+import Image from "next/image";
+import projectBannerFamilyChat from "/public/images/project_banner_familychat.png";
+import projectBannerObjectively from "/public/images/objectively.png";
+import projectBannerNotes from "/public/images/project_banner_notes.png";
 
 export const ProjectCard = ({ identifier, ...props }) => {
   const projectInformation = {
@@ -44,7 +38,7 @@ export const ProjectCard = ({ identifier, ...props }) => {
       projectLink: "https://familychat.app/",
       projectAward: false,
       awardDescription: ``,
-      projectImage: "/project_banner_familychat.png",
+      projectImage: "/project_banner_notes.png",
       projectTech: ["Figma", "MUI", "NextJS", "Framer", "Node", "CosmosDB"],
     },
   };
@@ -62,27 +56,40 @@ export const ProjectCard = ({ identifier, ...props }) => {
               </div>
 
               <div className="flex w-full h-160 bg-offBeige group-hover:bg-offBlack transition-all ease-in duration-225 justify-center">
-                <img
-                  src="/project_banner_familyChat.png"
-                  alt="FamilyChat Project Banner"
-                  className="w-fit h-160 pl-20 pr-20"
-                />
+                <div className="flex align-bottom">
+                  <Image
+                    src={projectBannerFamilyChat}
+                    alt="FamilyChat Project Banner"
+                    width={232}
+                    objectFit="cover"
+                  />
+                </div>
               </div>
             </div>
           ) : (
             <div className="flex w-full h-240 bg-offBeige rounded-t transition-all ease-in duration-225 group-hover:bg-offBlack justify-center">
               {projectInformation[identifier].projectName == "Objectively" ? (
-                <img
-                  src="/objectively.png"
-                  alt="Objectively Project Banner"
-                  className="w-fit h-240 p-16 ml-8 object"
-                />
+                <>
+                  <div className="flex ml-8">
+                    <Image
+                      src={projectBannerObjectively}
+                      alt="Objectively Project Banner"
+                      objectFit="cover"
+                      className=""
+                    />
+                  </div>
+                </>
               ) : (
-                <img
-                  src="/project_banner_notes.png"
-                  alt="Notes Project Banner"
-                  className="w-fit h-240"
-                />
+                <>
+                  <div className="flex align-bottom">
+                    <Image
+                      src={projectBannerNotes}
+                      alt="Keymorph Notes Project Banner"
+                      objectFit="cover"
+                      className=""
+                    />
+                  </div>
+                </>
               )}
             </div>
           )}
@@ -99,14 +106,18 @@ export const ProjectCard = ({ identifier, ...props }) => {
             </div>
 
             <div className="flex flex-wrap mt-16">
-              {projectInformation[identifier].projectTech.map((listOfTech) => (
-                <div
-                  key={listOfTech.id}
-                  className="w-fit h-fit pt-8 pb-8 pl-12 pr-12 mr-8 mb-8 rounded-full bg-offGray transition-all ease-in duration-225 group-hover:bg-offBlack text-12"
-                >
-                  <div className="font-medium text-offWhite">{listOfTech}</div>
-                </div>
-              ))}
+              {projectInformation[identifier].projectTech.map(
+                (listOfTech, index) => (
+                  <div
+                    key={index}
+                    className="w-fit h-fit pt-8 pb-8 pl-12 pr-12 mr-8 mb-8 rounded-full bg-offGray transition-all ease-in duration-225 group-hover:bg-offBlack text-12"
+                  >
+                    <div className="font-medium text-offWhite">
+                      {listOfTech}
+                    </div>
+                  </div>
+                )
+              )}
             </div>
 
             <button className="flex mt-24 mb-24 pt-8 pb-8 pl-16 pr-16 bg-offWhite text-offBlack rounded transition-all ease-in duration-225 border-offGray/0 border-2 group-hover:opacity-100 group-hover:border-offBlack group-hover:shadow-md items-center">
