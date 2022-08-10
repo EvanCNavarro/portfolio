@@ -5,7 +5,7 @@ import { MdInfo } from "react-icons/md";
 export default function SiteCredits() {
   return (
     <>
-      <hr class="w-88 h-4 bg-teal mt-40 mb-32" />
+      <hr className="w-88 h-4 bg-teal mt-40 mb-32" />
 
       <div className="mb-24 italic rounded-lg bg-offWhite p-16">
         <div className="flex items-center space-x-2 mb-8">
@@ -14,7 +14,7 @@ export default function SiteCredits() {
             <medium className="">This porfolio site was:</medium>
           </h3>
         </div>
-        <ul class="text-offGray pl-24">
+        <ul className="text-offGray pl-24">
           <li className="m-0">
             <div className="">
               <h2 className="text-20">

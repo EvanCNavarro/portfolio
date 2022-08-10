@@ -24,7 +24,7 @@ export default function HeroText() {
         >
           <div className="space-x-2">
             <span className="font-thin text-offGray/50 text-16">✦</span>
-            <span className="font-medium text-offGray">I'm a</span>
+            <span className="font-medium text-offGray">{"I'm a"}</span>
             <span className="font-bold text-offBlack">
               Jr. Product Designer
               <span className="font-medium text-offGray">,</span>

@@ -26,7 +26,7 @@ export default function WorkOverview() {
         <h3 className="font-bold text-20 text-offBlack mr-0 underline underline-offset-4 hover:underline mb-12">
           Current:
         </h3>
-        <ul class="list-disc pl-12 marker:text-offBlack">
+        <ul className="list-disc pl-12 marker:text-offBlack">
           <Grid className="group">
             <Tooltip
               color="invert"
@@ -54,9 +54,9 @@ export default function WorkOverview() {
       <div className="border-4 rounded-lg p-16 border-offWhite">
         <h3 className="font-bold text-16 text-offGray mr-0">Previous:</h3>
 
-        <hr class="h-4 bg-offWhite mt-8 mb-16" />
+        <hr className="h-4 bg-offWhite mt-8 mb-16" />
 
-        <ul class="list-disc pl-12 marker:text-offGray">
+        <ul className="list-disc pl-12 marker:text-offGray">
           <Grid className="group">
             <Tooltip
               color="invert"
