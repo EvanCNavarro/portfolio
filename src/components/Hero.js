@@ -1,11 +1,39 @@
-import Image from "next/image";
-import emojiHero from "/public/images/hero.png";
+import { useState, useEffect } from "react";
+import HeroImageDesktop from "./HeroImageDesktop";
+import HeroImageMobile from "./HeroImageMobile";
+import HeroText from "./HeroText";
 
 export default function Hero() {
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    const updateScreen = () => setScreenWidth(window.innerWidth);
+    updateScreen();
+    window.addEventListener("resize", updateScreen);
+    return () => window.removeEventListener("resize", updateScreen);
+  }, []);
+
+  const isDesktop = screenWidth > 1000;
+
   return (
     <>
-      <div className="mt-32 mb-8 relative w-full max-w-2xl">
-        <Image src={emojiHero} alt="Emoji Hero" objectFit="fill" className="" />
+      <div className="
+            relative my-[12%] flex space-x-[6.25%]
+            t:my-64
+        "
+      >
+        {isDesktop ? (
+          <div id="desktop-portion flex t:">
+            <HeroImageDesktop />
+          </div>
+        ) : null}
+
+        <div id="mobile-portion">
+          <HeroImageMobile />
+          <div className="mt-20 flex justify-center">
+            <HeroText />
+          </div>
+        </div>
       </div>
     </>
   );
