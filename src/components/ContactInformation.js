@@ -7,7 +7,7 @@ import yatLogo from "/public/logos/yat.svg";
 export default function ContactInformation() {
   return (
     <>
-      <hr id="contact" class="w-88 h-4 bg-teal mt-40 mb-32" />
+      <hr id="contact" className="w-88 h-4 bg-teal mt-40 mb-32" />
 
       <div className="mb-24">
         <Link href="#contact">
