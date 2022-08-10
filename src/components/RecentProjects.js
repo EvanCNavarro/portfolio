@@ -5,7 +5,7 @@ import { ProjectCard } from "../components/ProjectCard";
 export default function RecentProjects() {
   return (
     <>
-      <hr id="projects" className="w-88 h-4 bg-teal mt-40 mb-32" />
+      <hr id="projects" className="w-88 h-4 bg-teal mb-32" />
 
       <div className="mb-24">
         <Link href="#projects">
