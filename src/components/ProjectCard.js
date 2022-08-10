@@ -1,6 +1,6 @@
 import { MdArrowForward } from "react-icons/md";
 import Image from "next/image";
-import projectBannerFamilyChat from "/public/images/project_banner_familychat.png";
+import projectBannerFamilyChat from "/public/images/project_banner_familyChat.png";
 import projectBannerObjectively from "/public/images/objectively.png";
 import projectBannerNotes from "/public/images/project_banner_notes.png";
 
@@ -22,7 +22,7 @@ export const ProjectCard = ({ identifier, ...props }) => {
       projectLink: "https://familychat.app/",
       projectAward: true,
       awardDescription: `Winner of UCF's Spring 2022 Senior Design "Best in Show"`,
-      projectImage: "/project_banner_familychat.png",
+      projectImage: "/project_banner_familyChat.png",
       projectTech: [
         "Figma",
         "React Native",
