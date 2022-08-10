@@ -2,6 +2,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import UnderConstruction from "./UnderConstruction";
+
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
@@ -26,7 +28,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@EvanCNavarro" />
         <meta name="twitter:title" content={meta.title} />
@@ -39,7 +41,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
       {/* <main className="dark:bg-gray-800 w-full"> */}
       <main className="light:bg-white w-full">
         <Navbar />
-        <div className="min-h-screen m-20">{children}</div>
+        <UnderConstruction />
+        <div
+          className="
+            min-h-screen mx-[6.25%]
+          "
+        >
+          {children}
+        </div>
         <Footer />
       </main>
     </div>
