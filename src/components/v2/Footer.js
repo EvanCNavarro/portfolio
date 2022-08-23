@@ -101,7 +101,7 @@ export default function Footer() {
       >
         <div className="flex flex-wrap justify-center text-center px-20 my-16 space-x-8 xl:px-0">
           <span className="">Copyright © Evan C. Navarro {currentYear}.</span>
-          <span classname="">All rights reserved.</span>
+          <span className="">All rights reserved.</span>
         </div>
 
         <Link href="https://vercel.com/dashboard?utm_source=evancnavarro&utm_campaign=oss">
