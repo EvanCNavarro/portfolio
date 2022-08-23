@@ -93,7 +93,7 @@ export default function Hero() {
                       </li>
                       <li className="text-28 md:text-32">
                         <div className="inline-block">
-                          <span className="">I'm a </span>
+                          <span className="">I&apos;m a </span>
                           <span className="inline-block font-black text-offBlack text-center">
                             Jr. Product Designer
                             <span className="text-offGray font-normal">.</span>
@@ -120,7 +120,7 @@ export default function Hero() {
                     <div className="flex flex-wrap justify-center">
                       <div className="text-offBlack/60 space-x-8 text-28 px-4">
                         <span className="">
-                          My name is <b className="text-offBlack">Evan</b>. I'm
+                          My name is <b className="text-offBlack">Evan</b>. I&apos;m
                           a{" "}
                           <b className="text-offBlack">Jr. Product Designer</b>,
                           based in <b className="text-offBlack">Orlando, FL</b>.

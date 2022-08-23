@@ -85,7 +85,7 @@ export default function Footer() {
                   <MdInfoOutline size={20} className="inline-block text-offBlack mr-8" />
                   <span className="flex">Site Information</span>
                 </div>
-                <span className="flex font-normal">//</span>
+                <span className="flex font-normal">—</span>
                 <span className="flex">Made with ❤️</span>
               </div>
             </Tooltip>

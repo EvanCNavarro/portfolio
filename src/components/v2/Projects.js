@@ -434,7 +434,7 @@ export default function Projects() {
                       </span>
                     </div>
                     <span className="text-offGray text-20 sm:text-28">
-                      The "deliberation platform" helping host
+                      The &quot;deliberation platform&quot; helping host
                       political discussion between academics, popular figures,
                       and political pundits.
                     </span>

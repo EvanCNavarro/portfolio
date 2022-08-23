@@ -67,15 +67,15 @@ export default function About() {
           <div className="flex flex-wrap justify-center xl:space-x-8">
             <div className="text-offGray">
               <span className="">
-                "My primary goal when designing products is to:{" "}
+                &quot;My primary goal when designing products is to:{" "}
               </span>
               <span>
-                <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/50 relative inline-block">
+                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/50 relative inline-block">
                   <span className="relative text-offBlack font-semibold">
                     digitize empathy
                   </span>
                 </span>
-                <span className="relative font-normal">."</span>
+                <span className="relative font-normal">.&quot;</span>
               </span>
             </div>
           </div>
