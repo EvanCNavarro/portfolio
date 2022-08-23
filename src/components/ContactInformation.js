@@ -2,9 +2,28 @@ import Link from "next/link";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaGithubAlt, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
-import yatLogo from "/public/logos/yat.svg";
+import yatLogo from "/public/images/logos/yat.svg";
 
 export default function ContactInformation() {
+  const scrollProgress = () => {
+    return {
+      init() {
+        window.addEventListener("scroll", () => {
+          let winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+          let height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+          this.percent = Math.round((winScroll / height) * 100);
+        });
+      },
+      circumference: 30 * 2 * Math.PI,
+      percent: 0,
+    };
+  };
+  
+  console.log(scrollProgress());
+  
   return (
     <>
       <hr id="contact" className="w-88 h-4 bg-teal mt-40 mb-32" />

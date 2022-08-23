@@ -8,11 +8,12 @@ import SiteCredits from "../components/SiteCredits";
 export default function Home() {
   return (
     <ContainerBlock>
-      <Hero />
-      <RecentProjects />
-      <WorkOverview />
+
+      {/* <Hero />
+      <RecentProjects /> */}
+      {/* <WorkOverview />
       <ContactInformation />
-      <SiteCredits />
+      <SiteCredits /> */}
     </ContainerBlock>
   );
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MdOpenInNew } from "react-icons/md";
 import Image from "next/image";
-import ecnBlackLogo from "/public/logos/logo_black.svg";
+import ecnBlackLogo from "/public/images/logos/logo_black.svg";
 
 export default function Navbar() {
   return (

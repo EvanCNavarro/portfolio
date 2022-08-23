@@ -1,28 +1,60 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
+
 import UnderConstruction from "./UnderConstruction";
+import NavbarV2 from "./v2/Navbar";
+import Banner from "./v2/Banner";
+import HeroV2 from "./v2/Hero";
+import About from "./v2/About";
+import Projects from "./v2/Projects";
+import Footer from "./v2/Footer";
+import Contact from "./v2/Contact";
 
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: `Evan C. Navarro's Portfolio`,
+    title: `Evan C. Navarro — Portfolio // Jr. Product Designer in Orlando, FL.`,
     description: `The personal portfolio website for Evan C. Navarro; showcasing all projects involved with, work experience, contact information, and downloadable resume.`,
     image: `/avatar.png`,
     type: `website`,
     ...customMeta,
   };
+
   return (
     <div>
       <Head>
         <title>{meta.title}</title>
+
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta property="og:url" content={`https://ecn.dev${router.asPath}`} />
         <link rel="canonical" href={`https://ecn.dev${router.asPath}`} />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Evan C. Navarro" />
         <meta property="og:description" content={meta.description} />
@@ -40,11 +72,19 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
       {/* <main className="dark:bg-gray-800 w-full"> */}
       <main className="light:bg-white w-full">
-        <Navbar />
-        <UnderConstruction />
+        {/* <Navbar /> */}
+        <NavbarV2 />
+        <Banner />
+        {/* <UnderConstruction /> */}
+        <HeroV2 />
+        <About />
+        <Projects />
+        <Contact />
+
+        {/* min-h-screen */}
         <div
           className="
-            min-h-screen mx-[6.25%]
+            mx-[6.25%]
           "
         >
           {children}

@@ -4178,6 +4178,7 @@ next@latest:
     react: 17.0.2
     react-dom: 17.0.2
     react-icons: ^4.4.0
+    react-parallax-tilt: ^1.7.51
     sharp: ^0.30.7
     tailwindcss: ^3.1.7
     web-vitals: ^2.1.4
@@ -4707,6 +4708,16 @@ next@latest:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-parallax-tilt@npm:^1.7.51":
+  version: 1.7.51
+  resolution: "react-parallax-tilt@npm:1.7.51"
+  peerDependencies:
+    react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 460b04c04a0a4c878e54d9c9f3041ab40346ddc7ffde257eb29b1ba55fd6150349d4c79a2a03d0ef7f14aebfdcfa985bcc0b2a0056bb72898fac54a258e44305
   languageName: node
   linkType: hard
 

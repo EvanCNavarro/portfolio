@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
+const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -9,6 +10,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      // Tailwind default colors
       transparent: "transparent",
       current: "currentColor",
       black: colors.black,
@@ -17,9 +19,34 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      fuchsia: colors.fuchsia,
+      rose: colors.rose,
+      pink: colors.pink,
+      purple: colors.purple,
+      violet: colors.violet,
+      sky: colors.sky,
+      cyan: colors.cyan,
+      teal: colors.teal,
+      green: colors.green,
+      lime: colors.lime,
+      amber: colors.amber,
+      orange: colors.orange,
+      red: colors.red,
+      stone: colors.stone,
+      neutral: colors.neutral,
+      zinc: colors.zinc,
+      slate: colors.slate,
+      steel: colors.steel,
+      charcoal: colors.charcoal,
+      silver: colors.silver,
+      gold: colors.gold,
+      bronze: colors.bronze,
 
-      teal: "#00D3D3",
+      // Tailwind custom colors
+      offBlue: "#377EBF",
+      offTeal: "#00D3D3",
       offWhite: "#F4F4F4",
+      offPaper: "#E0E0E0",
       offGray: "#939393",
       offBlack: "#262626",
       offBeige: "#F0EDEB",
@@ -47,17 +74,23 @@ module.exports = {
         "1.75rem",
         {
           letterSpacing: "-0.0125rem",
-          lineHeight: "2.25rem",
+          lineHeight: "2.5rem",
         },
       ],
       32: [
         "2rem",
         {
           letterSpacing: "-0.0125rem",
-          lineHeight: "2.5rem",
+          lineHeight: "3rem",
         },
       ],
-      36: "2.25rem",
+      36: [
+        "2.25rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
       40: "2.5rem",
       44: "2.75rem",
       48: "3rem",
@@ -78,13 +111,27 @@ module.exports = {
 
     extend: {
       screens: {
-        m: '320px',
+        sm: "480px",
+        md: "640px",
+        lg: "800px",
+        xl: "1000px",
+        "2xl": "1200px",
+
+        tablet: "600px",
+
+
+
+
+
+
+        footer: "528px",
+        m: "320px",
+
         "m-360": "360px",
         "m-400": "400px",
         "m-440": "440px",
         "m-480": "480px",
 
-        t: '600px',
         "t-600": "600px",
         "t-640": "640px",
         "t-680": "640px",
@@ -96,7 +143,6 @@ module.exports = {
         "t-920": "920px",
         "t-960": "960px",
 
-        d: '1000px',
         "d-1000": "1000px",
         "d-1200": "1200px",
         "d-1300": "1300px",
@@ -107,6 +153,54 @@ module.exports = {
         "d-1800": "1800px",
         "d-1900": "1900px",
         "d-2000": "2000px",
+      },
+      fontFamily: {
+        plexMono: ["IBM Plex Mono", "monospace"],
+        plexSans: ["IBM Plex Sans", "sans-serif"],
+        plexSerif: ["IBM Plex Serif", "serif"],
+        plexCondensed: ["IBM Plex Sans Condensed", "sans-serif"],
+      },
+
+      animation: {
+        "gradient-x": "gradient-x 10s ease infinite",
+        "gradient-y": "gradient-y 10s ease infinite",
+        "gradient-xy": "gradient-xy 10s ease infinite",
+      },
+      keyframes: {
+        "gradient-y": {
+          "0%, 100%": {
+            "background-size": "400% 400%",
+            "background-position": "center top",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "center center",
+          },
+        },
+        "gradient-x": {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+        "gradient-xy": {
+          "0%, 100%": {
+            "background-size": "400% 400%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
+      boxShadow: {
+        neumorphism:
+          "6px 6px 8px 0 rgba(255, 255, 255, 0.3), -4px -4px 6px 0 rgba(0, 0, 0, .25)",
       },
       spacing: {
         0: "0.0rem",
