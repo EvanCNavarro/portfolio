@@ -1,19 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-import Navbar from "./Navbar";
-// import Footer from "./Footer";
-
-import UnderConstruction from "./UnderConstruction";
-import NavbarV2 from "./v2/Navbar";
-import Banner from "./v2/Banner";
-import HeroV2 from "./v2/Hero";
-import About from "./v2/About";
-import Projects from "./v2/Projects";
-import Footer from "./v2/Footer";
-import Contact from "./v2/Contact";
-
-
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
@@ -34,6 +21,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta property="og:url" content={`https://ecn.dev${router.asPath}`} />
         <link rel="canonical" href={`https://ecn.dev${router.asPath}`} />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -51,10 +39,12 @@ export default function ContainerBlock({ children, ...customMeta }) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Evan C. Navarro" />
         <meta property="og:description" content={meta.description} />
@@ -70,26 +60,15 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      {/* <main className="dark:bg-gray-800 w-full"> */}
-      <main className="light:bg-white w-full">
-        {/* <Navbar /> */}
-        <NavbarV2 />
-        <Banner />
-        {/* <UnderConstruction /> */}
-        <HeroV2 />
-        <About />
-        <Projects />
-        <Contact />
 
+      <main className="light:bg-white w-full">
         {/* min-h-screen */}
         <div
           className="
-            mx-[6.25%]
           "
         >
           {children}
         </div>
-        <Footer />
       </main>
     </div>
   );

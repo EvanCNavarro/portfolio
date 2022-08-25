@@ -24,7 +24,7 @@ export default function Navbar() {
           inline-flex items-center align-middle justify-center
           w-full h-fit
           font-plexMono
-          bg-offPaper drop-shadow-xl border-b border-white
+          bg-offWhite drop-shadow-xl border-b border-white
           xl:drop-shadow-none
       "
       >
@@ -80,7 +80,7 @@ export default function Navbar() {
                   xl:space-x-32
                 "
               >
-                <Link href="#about">
+                <Link href="/#about">
                   <a
                     className="
                     group
@@ -101,7 +101,7 @@ export default function Navbar() {
                   </a>
                 </Link>
 
-                <Link href="#projects">
+                <Link href="/#projects">
                   <a
                     className="
                     group
@@ -122,7 +122,7 @@ export default function Navbar() {
                   </a>
                 </Link>
 
-                <Link href="#contact">
+                <Link href="/#contact">
                   <a
                     className="
                     group

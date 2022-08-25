@@ -34,6 +34,7 @@ export default function Contact() {
     return () => window.removeEventListener("resize", updateScreen);
   }, []);
 
+  const equalTo375 = screenWidth == 375;
   const biggerThan480 = screenWidth > 479;
   const biggerThan600 = screenWidth > 599;
   const biggerThan1000 = screenWidth > 999;
@@ -48,7 +49,7 @@ export default function Contact() {
     >
       <div
         className="
-          h-fit w-1000 pb-64 space-y-32
+          h-fit w-1000 pt-64 pb-40 space-y-32
           bg-white
         "
       >
@@ -223,7 +224,7 @@ export default function Contact() {
                   >
                     @EvanCNavarro
                     <FiCornerRightDown
-                      size={biggerThan480 ? 20 : 16}
+                      size={biggerThan480 ? 20 : equalTo375 ? 8 : 12}
                       className="mx-4 text-offBlack inline-block group-hover:text-offTeal"
                     />
                   </span>

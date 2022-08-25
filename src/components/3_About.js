@@ -64,8 +64,8 @@ export default function About() {
           font-plexSans font-normal text-32 italic
         "
         >
-          <div className="flex flex-wrap justify-center xl:space-x-8">
-            <div className="text-offGray">
+          <div className="flex flex-wrap justify-center text-center md:text-start xl:space-x-8">
+            <div className="text-offGray border-l-4 border-offPaper rounded-r-lg pl-16 pt-16 pb-32">
               <span className="">
                 &quot;My primary goal when designing products is to:{" "}
               </span>
@@ -85,7 +85,7 @@ export default function About() {
       <div
         className="
             flex flex-wrap justify-evenly
-            h-fit w-full my-64 px-20
+            h-fit w-full mt-40 mb-64 px-20
             font-plexSans
             xl:w-1000 xl:justify-between xl:px-0
           "

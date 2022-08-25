@@ -12,7 +12,7 @@ export default function Hero() {
     return () => window.removeEventListener("resize", updateScreen);
   }, []);
 
-  const isDesktop = screenWidth > 479;
+  const isDesktop = screenWidth > 475;
 
   return (
     <div
@@ -117,8 +117,8 @@ export default function Hero() {
                       </li> */}
                     </ul>
                   ) : (
-                    <div className="flex flex-wrap justify-center">
-                      <div className="text-offBlack/60 space-x-8 text-28 px-4">
+                    <div className="flex flex-wrap justify-center w-fit">
+                      <div className="w-fit text-offBlack/60 text-28 375:text-32 414:text-28 pl-[4.25%]">
                         <span className="">
                           My name is <b className="text-offBlack">Evan</b>. I&apos;m
                           a{" "}
