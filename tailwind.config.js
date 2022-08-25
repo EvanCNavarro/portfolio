@@ -50,6 +50,8 @@ module.exports = {
       offGray: "#939393",
       offBlack: "#262626",
       offBeige: "#F0EDEB",
+      offGreen: "#198754",
+      offBlue: "#0088FF",
     },
     fontSize: {
       4: "0.25rem",
@@ -91,12 +93,48 @@ module.exports = {
           lineHeight: "3.25rem",
         },
       ],
-      40: "2.5rem",
-      44: "2.75rem",
-      48: "3rem",
-      52: "3.25rem",
-      56: "3.5rem",
-      60: "3.75rem",
+      40: [
+        "2.5rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
+      44: [
+        "2.75rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
+      48: [
+        "3rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
+      52: [
+        "3.25rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
+      56: [
+        "3.5rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
+      60: [
+        "3.75rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "3.25rem",
+        },
+      ],
       64: "4rem",
       68: "4.25rem",
       72: "4.5rem",
@@ -111,48 +149,18 @@ module.exports = {
 
     extend: {
       screens: {
+        "320": "320px",
+        "375": "375px",
+        "390": "390px",
+        "414": "414px",
+        "428": "428px",
+        "476": "476px",
         sm: "480px",
+        tablet: "600px",
         md: "640px",
         lg: "800px",
         xl: "1000px",
         "2xl": "1200px",
-
-        tablet: "600px",
-
-
-
-
-
-
-        footer: "528px",
-        m: "320px",
-
-        "m-360": "360px",
-        "m-400": "400px",
-        "m-440": "440px",
-        "m-480": "480px",
-
-        "t-600": "600px",
-        "t-640": "640px",
-        "t-680": "640px",
-        "t-720": "720px",
-        "t-760": "760px",
-        "t-800": "800px",
-        "t-840": "840px",
-        "t-880": "880px",
-        "t-920": "920px",
-        "t-960": "960px",
-
-        "d-1000": "1000px",
-        "d-1200": "1200px",
-        "d-1300": "1300px",
-        "d-1400": "1400px",
-        "d-1500": "1500px",
-        "d-1600": "1600px",
-        "d-1700": "1700px",
-        "d-1800": "1800px",
-        "d-1900": "1900px",
-        "d-2000": "2000px",
       },
       fontFamily: {
         plexMono: ["IBM Plex Mono", "monospace"],
