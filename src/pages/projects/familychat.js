@@ -228,7 +228,7 @@ export default function FamilyChat() {
                   <span className="w-fit font-bold">
                     &quot;FamilyChat&quot; being awarded &quot;
                     <b className="underline underline-offset-4">Best in Show</b>
-                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                    &quot;, during UCF&apos;s Spring 2022 Senior Design Showcase.
                   </span>
                 </div>
               </div>
@@ -372,7 +372,7 @@ export default function FamilyChat() {
                   <span className="w-fit font-bold">
                     &quot;FamilyChat&quot; being awarded &quot;
                     <b className="underline underline-offset-4">Best in Show</b>
-                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                    &quot;, during UCF&apos;s Spring 2022 Senior Design Showcase.
                   </span>
                 </div>
               </div>
@@ -478,7 +478,7 @@ export default function FamilyChat() {
                     user interview questions, following guidance from numerous
                     NN/g articles and other external resources. Our primary goal
                     was to ask these users specific questions about issues
-                    they've experience while using the apps that we highlighted
+                    they&apos;ve experience while using the apps that we highlighted
                     during our Market Research.
                   </span>
                 </div>
@@ -504,7 +504,7 @@ export default function FamilyChat() {
                   <span className="w-fit font-bold">
                     &quot;FamilyChat&quot; being awarded &quot;
                     <b className="underline underline-offset-4">Best in Show</b>
-                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                    &quot;, during UCF&apos;s Spring 2022 Senior Design Showcase.
                   </span>
                 </div>
               </div>
