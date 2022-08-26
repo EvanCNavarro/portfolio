@@ -4,11 +4,7 @@ import { CssBaseline } from "@nextui-org/react";
 
 export default function Document() {
   return (
-    <Html
-      lang="en"
-      className="scroll-smooth"
-      style={{ scrollBehavior: "smooth" }}
-    >
+    <Html lang="en">
       <Head>
         {CssBaseline.flush()}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,6 +18,7 @@ export default function Document() {
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
