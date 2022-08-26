@@ -1,7 +1,6 @@
 import { useReadingProgress } from "/src/hooks/useReadingProgress";
 
 export default function ProgessBar() {
-
   const completion = useReadingProgress();
 
   return (

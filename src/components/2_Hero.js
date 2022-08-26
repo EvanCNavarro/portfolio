@@ -120,8 +120,8 @@ export default function Hero() {
                     <div className="flex flex-wrap justify-center w-fit">
                       <div className="w-fit text-offBlack/60 text-28 375:text-32 414:text-28 pl-[4.25%]">
                         <span className="">
-                          My name is <b className="text-offBlack">Evan</b>. I&apos;m
-                          a{" "}
+                          My name is <b className="text-offBlack">Evan</b>.
+                          I&apos;m a{" "}
                           <b className="text-offBlack">Jr. Product Designer</b>,
                           based in <b className="text-offBlack">Orlando, FL</b>.
                         </span>

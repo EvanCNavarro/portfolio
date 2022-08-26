@@ -9,7 +9,6 @@ export function useReadingProgress() {
 
   useEffect(() => {
     function updateScrollCompletion() {
-
       // see how much we have scrolled
       const currentProgress = window.scrollY;
 
@@ -22,7 +21,7 @@ export function useReadingProgress() {
         );
       }
     }
-    
+
     // add scroll event listener
     window.addEventListener("scroll", updateScrollCompletion);
 
