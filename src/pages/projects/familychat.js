@@ -9,6 +9,7 @@ import SiteCredits from "/src/components/6A_SiteCredits";
 import Footer from "/src/components/6B_Footer";
 
 import {
+  FiHash,
   FiChevronLeft,
   FiArrowLeft,
   FiChevronRight,
@@ -57,7 +58,7 @@ export default function FamilyChat() {
         >
           <div
             className="
-              w-full space-y-24
+              w-full space-y-0
             "
           >
             <div
@@ -97,7 +98,7 @@ export default function FamilyChat() {
               <div
                 className="
                   items-center space-y-8
-                  375:space-y-16 lg:flex lg:justify-between
+                  375:space-y-16 lg:flex lg:justify-between lg:space-y-0
                 "
               >
                 <span className="text-44 font-black 375:text-52">
@@ -142,64 +143,562 @@ export default function FamilyChat() {
                   </span>
                 </div>
               </div>
-            </div>
 
-            <div className=" space-y-16">
               <div
                 className="
+                  align-top space-y-28 pt-12
+                  lg:flex lg:justify-between lg:space-y-0
+                "
+              >
+                <div className="w-full lg:w-1/2 flex align-top border-l-8 border-offPaper pl-20">
+                  <span className="text-20 text-offGray font-normal 375:text-24 lg:text-28">
+                    Mobile chat application created for families; pairing five
+                    interactive features, alongside standard messaging
+                    functionality.
+                  </span>
+                </div>
+
+                <div
+                  className="
+                    w-full h-fit
+                    flex flex-wrap justify-center space-y-20
+                    375:justify-start tablet:w-288 lg:w-1/2 lg:space-x-0 lg:space-y-16 lg:justify-end
+                  "
+                >
+                  <span
+                    className="
+                      flex flex-wrap justify-center align-middle items-center
+                      h-fit
+                      text-16 text-offBlack font-normal
+                      bg-white shadow-md px-20 py-12 rounded-full
+                      375:text-20
+                    "
+                  >
+                    🗓️ <b className="ml-8">Date:</b>
+                    <div className="ml-8">May 2021 — 2022</div>
+                  </span>
+
+                  <span
+                    className="
+                      flex flex-wrap align-middle items-center
+                      h-fit
+                      text-16 text-offBlack font-normal
+                      bg-white shadow-md px-20 py-12 rounded-full
+                      375:text-20
+                    "
+                  >
+                    🧑‍🎨 <b className="ml-8">Role:</b>
+                    <div className="ml-8">PM, Lead Designer</div>
+                  </span>
+
+                  <span
+                    className="
+                      flex flex-wrap align-middle items-center
+                      h-fit
+                      text-16 text-offBlack font-normal
+                      bg-white shadow-md px-20 py-12 rounded-full
+                      375:text-20
+                    "
+                  >
+                    🏫 <b className="ml-8">Type:</b>
+                    <div className="ml-8">Senior Design</div>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-136">
+              <div className="mt-40 space-y-16">
+                <div
+                  className="
                   w-full h-400 rounded-3xl
                   bg-offTeal
                   drop-shadow-lg
                 "
-              />
+                />
+
+                <div
+                  className="
+                  flex
+                  w-fit ml-24 mr-4
+                  text-16 text-offBlack font-normal font-plexMono
+                "
+                >
+                  <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
+                  <span className="w-fit font-bold">
+                    &quot;FamilyChat&quot; being awarded &quot;
+                    <b className="underline underline-offset-4">Best in Show</b>
+                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                  </span>
+                </div>
+              </div>
 
               <div
                 className="
-                  flex
-                  w-fit mx-24
-                  text-16 text-offBlack font-normal font-plexMono
+                  space-y-28
+                  lg:px-24
                 "
               >
-                <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
-                <span className="w-fit">
-                  A succint description of image shown above.
-                </span>
-              </div>
-            </div>
+                <div className="border-b pb-12">
+                  <div className="h-12 w-12 rounded-full bg-offRed mb-12" />
+                  <div className="flex align-middle items-center text-offGray ">
+                    <FiHash size={16} className="mr-8" />
+                    <span className="text-16 font-plexMono font-bold ">
+                      The Challenge
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-32 font-black 375:text-40">
+                      What are popular Messaging Apps missing?{" "}
+                      <b className="ml-8">💬</b>
+                    </span>
+                  </div>
+                </div>
 
-            <div
-              className="
-                pt-24
-                lg:px-24
-              "
-            >
-              <div>
-                <span className="text-32 font-black 375:text-40">Outcome:</span>
+                <div>
+                  <span className="text-20 375:text-28">
+                    Existing apps like WhatsApp, and iOS Messages are first
+                    options for most families, but these apps lack:
+                    <ul className="ml-32 list-outside mt-12">
+                      <li className="list-decimal text-20 375:text-28 font-bold">
+                        The ability to organize conversations by
+                        &quot;Topics&quot;.
+                        <ul className="ml-0 list-outside">
+                          <li className="list-none text-20 375:text-28 font-normal italic text-offGray">
+                            → Users are left to create redundant group subsets.
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="list-decimal text-20 375:text-28 font-bold">
+                        Native Features for Decision Making.
+                        <ul className="ml-0 list-outside">
+                          <li className="list-none text-20 375:text-28 font-normal italic text-offGray">
+                            → 3rd party providers fill this void, but each have
+                            varying UX.
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="list-decimal text-20 375:text-28 font-bold">
+                        Family as Target Audience.
+                        <ul className="ml-0 list-outside">
+                          <li className="list-none text-20 375:text-28 font-normal italic text-offGray">
+                            → Most apps that target families focus on safety for
+                            kids, rather than orienting their designs around
+                            better family decision making.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </span>
+                </div>
               </div>
-              <div>
-                <span className="text-20 font-normal 375:text-28">
-                  This is a two-sentence detailed explanation of what happened
-                  as a result of the project, without too many numbers.
-                </span>
-              </div>
-            </div>
-          </div>
 
-          <div
-            className="
+              <div
+                className="
+                  space-y-28
+                  lg:px-24
+                "
+              >
+                <div className="border-b pb-12">
+                  <div className="h-12 w-12 rounded-full bg-offGreen mb-12" />
+
+                  <div className="flex align-middle items-center text-offGray">
+                    <FiHash size={16} className="mr-8" />
+                    <span className="text-16 font-plexMono font-bold">
+                      The Outcome
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-32 font-black 375:text-40">
+                      Winner, winner, chicken dinner! <b className="ml-8">🥇</b>
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap font-normal text-20 375:text-28">
+                  <span className="">
+                    The final result was a free-to-use iOS mobile application,
+                    called &quot;FamilyChat&quot;. The app makes decision-making
+                    easier for families, through the pairing of basic message
+                    functionality with in-app features like:
+                  </span>
+                  <span className="">
+                    <b className="">📌 Pinned Messages</b>,{" "}
+                    <b className="375:ml-8">⚠️ Alerts</b>,{" "}
+                    <b className="375:ml-8">🗳️ Polls</b>,{" "}
+                    <b className="375:ml-8">🎫 Events</b>,{" "}
+                    <b className="375:ml-8">📸 Images</b>.
+                  </span>
+                  <ul className="ml-24 mt-16 list-outside list-disc text-offGray">
+                    <li className="font-normal text-20 375:text-28">
+                      <u className="underline-offset-8">Qualative</u> feedback
+                      about the app was extremely positive from users.
+                    </li>
+                    <li className="font-normal text-20 375:text-28">
+                      <u className="underline-offset-8">Quantitative</u>{" "}
+                      feedback showed that ~28% of users who used the app,
+                      reduced their overall count of group chats; ultimately
+                      allowing for better communication and decision-making.
+                    </li>
+                  </ul>
+                </div>
+                {/* <div>
+                  <span className="text-20 375:text-28">
+                    All Front-End components used for the app were designed from
+                    scratch within Figma, and developed using React Native.
+                    Authentication and Database Storage, were handled through
+                    Google's Firebase and Cloud Firestore, respectively.
+                  </span>
+                </div> */}
+              </div>
+
+              <div className="my-80 space-y-16">
+                <div
+                  className="
+                  w-full h-400 rounded-3xl
+                  bg-offTeal
+                  drop-shadow-lg
+                "
+                />
+
+                <div
+                  className="
+                  flex
+                  w-fit ml-24 mr-4
+                  text-16 text-offBlack font-normal font-plexMono
+                "
+                >
+                  <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
+                  <span className="w-fit font-bold">
+                    &quot;FamilyChat&quot; being awarded &quot;
+                    <b className="underline underline-offset-4">Best in Show</b>
+                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="
+                  space-y-28
+                  lg:px-24
+                "
+              >
+                <div className="flex flex-wrap font-normal text-20 375:text-28">
+                  <ul>
+                    <li>Timeline</li>
+                    <li>Market Research</li>
+                    <li>User Interviews</li>
+                    <li>Analysis</li>
+                    <li>Insights</li>
+                    <li>Specs & Reqs</li>
+                    <li>150 page document</li>
+                    <li>Sketching</li>
+                    <li>Wireframing</li>
+                    <li>Lo, Mid</li>
+                    <li>Intermediary Testing of Figma Interactive Prototype</li>
+                    <li>Feedback and Changes</li>
+                    <li>Visual Design</li>
+                    <li>Branding</li>
+                    <li>High Fidelity</li>
+                    <li>STEM Event</li>
+                    <li>Senior Design Finalists Showcase Event</li>
+                    <li>Discord Updates</li>
+                    <li>Further Development October 2022</li>
+                    <li>Final Notes and Takeaways</li>
+                  </ul>
+                </div>
+                {/* <div>
+                  <span className="text-20 375:text-28">
+                    All Front-End components used for the app were designed from
+                    scratch within Figma, and developed using React Native.
+                    Authentication and Database Storage, were handled through
+                    Google's Firebase and Cloud Firestore, respectively.
+                  </span>
+                </div> */}
+              </div>
+
+              <div
+                className="
+              space-y-28
+              lg:px-24
+            "
+              >
+                <div className="border-b pb-12">
+                  <div className="flex align-middle items-center text-offGray">
+                    <FiHash size={16} className="mr-8" />
+                    <span className="text-16 font-plexMono font-bold">
+                      Market Research
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-32 font-black 375:text-40">
+                      For Families? <b className="ml-8">📲</b>
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap font-normal text-20 375:text-28">
+                  <span className="">
+                    First thing to do for this project was to analyze what
+                    currently exists for commu nication apps for groups and more
+                    specifically families. Of those existing apps we created a
+                    graph of what thigns they had that overlapped, what
+                    featrues, their target audience, downsides when compared to
+                    the target audience of families, their intended goal and how
+                    that compared with what we were trying to accomplish with
+                    creating FamilyChat AKA better. decision making and less
+                    clutter for conversations.
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="
+                  space-y-28
+                  lg:px-24
+                "
+              >
+                <div className="border-b pb-12">
+                  <div className="flex align-middle items-center text-offGray">
+                    <FiHash size={16} className="mr-8" />
+                    <span className="text-16 font-plexMono font-bold">
+                      User Interviews
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-32 font-black 375:text-40">
+                      With a lot help from NN/g & JJ <b className="ml-8">🗣️</b>
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap font-normal text-20 375:text-28">
+                  <span className="">
+                    My teammate / design cohort, JJ and I constructed proper
+                    user interview questions, following guidance from numerous
+                    NN/g articles and other external resources. Our primary goal
+                    was to ask these users specific questions about issues
+                    they've experience while using the apps that we highlighted
+                    during our Market Research.
+                  </span>
+                </div>
+              </div>
+
+              <div className="my-80 space-y-16">
+                <div
+                  className="
+                    w-full h-400 rounded-3xl
+                    bg-offTeal
+                    drop-shadow-lg
+                  "
+                />
+
+                <div
+                  className="
+                    flex
+                    w-fit ml-24 mr-4
+                    text-16 text-offBlack font-normal font-plexMono
+                  "
+                >
+                  <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
+                  <span className="w-fit font-bold">
+                    &quot;FamilyChat&quot; being awarded &quot;
+                    <b className="underline underline-offset-4">Best in Show</b>
+                    &quot;, during UCF's Spring 2022 Senior Design Showcase.
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="
+                  lg:px-24
+                "
+              >
+                <div className="space-y-28">
+                  <div className="border-b pb-12">
+                    <div className="flex align-middle items-center text-offGray">
+                      <FiHash size={16} className="mr-8" />
+                      <span className="text-16 font-plexMono font-bold">
+                        Analysis of Research
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-32 font-black 375:text-40">
+                        Insights Found <b className="ml-8">🔍</b>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap font-normal text-20 375:text-28">
+                    <span className="">
+                      The entire FamilyChat team sat down and discussed our
+                      findings from our Market Research and User Interviews.
+                      There were many overlapping constructs and ideas deduced
+                      from our findings but we distilled our findings into 3
+                      major insights.
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  className="
+                    flex flex-wrap justify-center space-y-24
+                    375:space-y-32 sm:justify-evenly md:space-y-48 xl:justify-between xl:mt-36 xl:space-y-0
+                  "
+                >
+                  <div
+                    className="
+                      min-w-[280px] w-full h-fit mt-24
+                      bg-offWhite rounded-3xl p-24 space-y-20
+                      font-plexSans text-16 text-offBlack
+                      drop-shadow-lg
+                      375:mt-32 md:w-[280px] md:mt-48 lg:w-[328px] xl:mt-0 xl:w-[280px]
+                    "
+                  >
+                    <div
+                      className="
+                        flex flex-wrap justify-between items-top align-top
+                        h-fit w-full
+                        border-b border-offPaper pb-12
+                        text-24 font-black font-plexMono text-offBlack
+                        375:text-28
+                      "
+                    >
+                      <div className="flex">
+                        <span className="">Insight #1</span>
+                      </div>
+                      <div className="">
+                        <span className="drop-shadow-xl">💡</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap space-y-8 h-fit ">
+                      <span
+                        className="font-black text-20 h-fit 375:text-24
+                        "
+                      >
+                        Topical Organization
+                      </span>
+
+                      <span
+                        className="text-offGray h-fit 375:text-20
+                        "
+                      >
+                        Users wanted to be able to organize conversations by
+                        topics, rather than having to create an entirely new
+                        group chat for a specific discussion or event.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div
+                    className="
+                      min-w-[280px] w-full h-fit
+                      bg-offWhite rounded-3xl p-24 space-y-20
+                      font-plexSans text-16 text-offBlack
+                      drop-shadow-lg
+                      md:w-[280px] lg:w-[328px] xl:w-[280px]
+                    "
+                  >
+                    <div
+                      className="
+                        flex flex-wrap justify-between items-top align-top
+                        h-fit w-full
+                        border-b border-offPaper pb-12
+                        text-24 font-black font-plexMono text-offBlack
+                        375:text-28 
+                      "
+                    >
+                      <div className="flex">
+                        <span className="">Insight #2</span>
+                      </div>
+                      <div className="">
+                        <span className="drop-shadow-xl">💡</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap space-y-8 h-fit ">
+                      <span
+                        className="font-black text-20 h-fit 375:text-24
+                        "
+                      >
+                        Native Features
+                      </span>
+
+                      <span
+                        className="text-offGray h-fit 375:text-20
+                        "
+                      >
+                        Users wanted to be able to organize conversations by
+                        topics, rather than having to create an entirely new
+                        group chat for a specific discussion or event.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div
+                    className="
+                      min-w-[280px] w-full h-fit
+                      bg-offWhite rounded-3xl p-24 space-y-20
+                      font-plexSans text-16 text-offBlack
+                      drop-shadow-lg
+                      md:w-[280px] lg:w-[328px] xl:w-[280px]
+                    "
+                  >
+                    <div
+                      className="
+                        flex flex-wrap justify-between items-top align-top
+                        h-fit w-full
+                        border-b border-offPaper pb-12
+                        text-24 font-black font-plexMono text-offBlack
+                        375:text-28
+                      "
+                    >
+                      <div className="flex">
+                        <span className="">Insight #3</span>
+                      </div>
+                      <div className="">
+                        <span className="drop-shadow-xl">💡</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap space-y-8 h-fit ">
+                      <span
+                        className="font-black text-20 h-fit 375:text-24
+                        "
+                      >
+                        Target Audience
+                      </span>
+
+                      <span
+                        className="text-offGray h-fit 375:text-20
+                        "
+                      >
+                        Users wanted to be able to organize conversations by
+                        topics, rather than having to create an entirely new
+                        group chat for a specific discussion or event.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Back + Next Buttons */}
+              <div
+                className="
               flex justify-between space-x-24
               w-full
             "
-          >
-            <div
-              className="
+              >
+                <div
+                  className="
                 w-1/2 flex justify-start
               "
-            >
-              <Link href="/#projects">
-                <a className="w-full">
-                  <button
-                    className="
+                >
+                  <Link href="/#projects">
+                    <a className="w-full">
+                      <button
+                        className="
                       group
                       px-24 py-12 mt-16 w-full max-w-[13rem]
                       flex justify-center items-center space-x-4
@@ -208,41 +707,45 @@ export default function FamilyChat() {
                       bg-offPaper
                       hover:bg-offPaper/80 hover:shadow-md
                     "
-                  >
-                    <div className="flex">
-                      <FiChevronLeft
-                        size={20}
-                        className="
+                      >
+                        <div className="flex">
+                          <FiChevronLeft
+                            size={20}
+                            className="
                           translate ease-in-out duration-200
                           group-hover:-translate-x-1 group-hover:opacity-0
                         "
-                      />
+                          />
 
-                      <FiArrowLeft
-                        size={20}
-                        className="
+                          <FiArrowLeft
+                            size={20}
+                            className="
                           flex absolute
                           translate ease-in-out duration-200 opacity-0 translate-x-1
                           group-hover:-translate-x-1 group-hover:opacity-100
                         "
-                      />
-                    </div>
+                          />
+                        </div>
 
-                    {atLeast476 ? <span>Back to Home</span> : <span>Back</span>}
-                  </button>
-                </a>
-              </Link>
-            </div>
+                        {atLeast476 ? (
+                          <span>Back to Home</span>
+                        ) : (
+                          <span>Back</span>
+                        )}
+                      </button>
+                    </a>
+                  </Link>
+                </div>
 
-            <div
-              className="
+                <div
+                  className="
                 w-1/2
               "
-            >
-              <Link href="/projects/objectively">
-                <a className="w-full flex justify-end">
-                  <button
-                    className="
+                >
+                  <Link href="/projects/objectively">
+                    <a className="w-full flex justify-end">
+                      <button
+                        className="
                       group
                       px-24 py-12 mt-16 w-full max-w-[13rem]
                       flex justify-center items-center space-x-4
@@ -250,30 +753,36 @@ export default function FamilyChat() {
                       rounded-lg outline-none
                       hover:bg-offBlack/90 hover:shadow-lg
                     "
-                  >
-                    {atLeast476 ? <span>View Next</span> : <span>Next</span>}
+                      >
+                        {atLeast476 ? (
+                          <span>View Next</span>
+                        ) : (
+                          <span>Next</span>
+                        )}
 
-                    <div className="flex">
-                      <FiChevronRight
-                        size={20}
-                        className="
+                        <div className="flex">
+                          <FiChevronRight
+                            size={20}
+                            className="
                           translate ease-in-out duration-200
                           group-hover:translate-x-1 group-hover:opacity-0
                         "
-                      />
+                          />
 
-                      <FiArrowRight
-                        size={20}
-                        className="
+                          <FiArrowRight
+                            size={20}
+                            className="
                           flex absolute
                           translate ease-in-out duration-200 opacity-0 -translate-x-1
                           group-hover:translate-x-1 group-hover:opacity-100
                         "
-                      />
-                    </div>
-                  </button>
-                </a>
-              </Link>
+                          />
+                        </div>
+                      </button>
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
