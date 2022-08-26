@@ -62,13 +62,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
 
       <main className="light:bg-white w-full">
-        {/* min-h-screen */}
-        <div
-          className="
-          "
-        >
-          {children}
-        </div>
+        <div>{children}</div>
       </main>
     </div>
   );

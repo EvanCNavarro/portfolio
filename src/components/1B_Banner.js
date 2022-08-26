@@ -20,18 +20,18 @@ export default function Banner() {
         bg-[#FFCD48]
       "
     >
-      {/* <span className="text-16 text-black font-bold mr-12">
+      <span className="text-16 text-black font-bold mr-12">
         [*: {screenWidth}]
       </span>
-      <span>sm.480 / md.640 / lg.800 / xl.1000 / 2xl.1200</span> */}
-      <span
+      <span>sm.480 / md.640 / lg.800 / xl.1000 / 2xl.1200</span>
+      {/* <span
         className="
           font-black text-16 text-offBlack font-plexMono
           drop-shadow-lg
         "
       >
         🚧 SITE UNDER CONSTRUCTION 🚧
-      </span>
+      </span> */}
     </div>
   );
 }

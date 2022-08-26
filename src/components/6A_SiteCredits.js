@@ -43,7 +43,7 @@ export default function SiteInformation() {
       className="
           flex flex-wrap justify-center items-center align-items
           w-full py-12
-          bg-offPaper
+          bg-offPaper 
         "
     >
       <div

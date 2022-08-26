@@ -596,7 +596,7 @@ export default function Projects() {
                   ) : null}
 
                   <div className="flex flex-wrap justify-start w-full sm:w-fit">
-                  <Link href="projects/objectively">
+                    <Link href="projects/objectively">
                       <a className="w-full">
                         {/* <a target="_blank" rel="noopener noreferrer" className=""> */}
                         <button
@@ -865,7 +865,7 @@ export default function Projects() {
                   ) : null}
 
                   <div className="flex flex-wrap justify-start w-full sm:w-fit">
-                  <Link href="projects/keymorph">
+                    <Link href="projects/keymorph">
                       <a className="w-full">
                         {/* <a target="_blank" rel="noopener noreferrer" className=""> */}
                         <button
@@ -974,8 +974,8 @@ export default function Projects() {
                       </span>
                     </div>
                     <span className="text-offGray text-20 sm:text-28">
-                      Random design snippets from projects, school
-                      assignments, and client work.
+                      Random design snippets from projects, school assignments,
+                      and client work.
                     </span>
                   </div>
                   {biggerThan480 ? (
@@ -1086,7 +1086,7 @@ export default function Projects() {
                   ) : null}
 
                   <div className="flex flex-wrap justify-start w-full sm:w-fit">
-                  <Link href="projects/snippets">
+                    <Link href="projects/snippets">
                       <a className="w-full">
                         {/* <a target="_blank" rel="noopener noreferrer" className=""> */}
                         <button

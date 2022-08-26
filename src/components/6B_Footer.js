@@ -43,7 +43,7 @@ export default function Footer() {
       className="
         flex flex-wrap justify-center items-center align-items
         bg-offBlack top-shadow-md
-        text-white
+        text-white font-plexSans
       "
     >
       <div
