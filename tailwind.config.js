@@ -52,6 +52,7 @@ module.exports = {
       offBeige: "#F0EDEB",
       offGreen: "#198754",
       offBlue: "#0088FF",
+      offRed: "#E0393E",
     },
     fontSize: {
       4: "0.25rem",
@@ -149,12 +150,12 @@ module.exports = {
 
     extend: {
       screens: {
-        "320": "320px",
-        "375": "375px",
-        "390": "390px",
-        "414": "414px",
-        "428": "428px",
-        "476": "476px",
+        320: "320px",
+        375: "375px",
+        390: "390px",
+        414: "414px",
+        428: "428px",
+        476: "476px",
         sm: "480px",
         tablet: "600px",
         md: "640px",
