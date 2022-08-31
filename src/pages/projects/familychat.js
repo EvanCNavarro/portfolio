@@ -427,7 +427,6 @@ export default function FamilyChat() {
 
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
-                    
                     First thing to do for this project was to analyze what
                     currently exists for communication apps for groups and more
                     specifically families. Of those existing apps we created a
@@ -1221,9 +1220,9 @@ export default function FamilyChat() {
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
                     Make changes to the project plan based on feedback gathered
-                    from STEM event, what&apos;s left, what we want to do, how that
-                    matches with the user personas, new design ideas, stretch
-                    goals, and project specs and reqs.
+                    from STEM event, what&apos;s left, what we want to do, how
+                    that matches with the user personas, new design ideas,
+                    stretch goals, and project specs and reqs.
                   </span>
                 </div>
               </div>
@@ -1243,7 +1242,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      Receving the "Best in Show" Award{" "}
+                      Receving the &quot;Best in Show&quot; Award{" "}
                       <b className="ml-8">🧒</b>
                     </span>
                   </div>
@@ -1256,10 +1255,10 @@ export default function FamilyChat() {
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      We recieved an invitation to join the ucf&apos;s senior design
-                      semi-finalists event (spring 2022). only 6 out of ~52
-                      possible teams from each discipline are selected to join.
-                      there was a total of 188 teams out of the entire
+                      We recieved an invitation to join the ucf&apos;s senior
+                      design semi-finalists event (spring 2022). only 6 out of
+                      ~52 possible teams from each discipline are selected to
+                      join. there was a total of 188 teams out of the entire
                       graduating class that had senior design projects during
                       the spring 2022 semester.
                     </span>
@@ -1278,7 +1277,7 @@ export default function FamilyChat() {
 
                 <div className="space-y-8">
                   <span className="text-20 font-black 375:text-28">
-                    "Last but not least..."
+                    &quot;Last but not least...&quot;
                   </span>
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
@@ -1419,7 +1418,8 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      What&apos;s next for FamilyChat? <b className="ml-8">⛳</b>
+                      What&apos;s next for FamilyChat?{" "}
+                      <b className="ml-8">⛳</b>
                     </span>
                   </div>
                 </div>
