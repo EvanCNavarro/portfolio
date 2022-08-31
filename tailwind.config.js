@@ -65,7 +65,13 @@ module.exports = {
           lineHeight: "1.5rem",
         },
       ],
-      20: "1.25rem",
+      20: [
+        "1.25rem",
+        {
+          letterSpacing: "-0.0125rem",
+          lineHeight: "2.25rem",
+        },
+      ],
       24: [
         "1.5rem",
         {

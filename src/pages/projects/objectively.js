@@ -180,6 +180,7 @@ export default function Objectively() {
                 <span className="text-20 font-normal 375:text-28">
                   This is a two-sentence detailed explanation of what happened
                   as a result of the project, without too many numbers.
+                  https://uxdesign.cc/facelift-refresh-redesign-strategies-for-paying-off-design-debt-5cadb10799ed
                 </span>
               </div>
             </div>
