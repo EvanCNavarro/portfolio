@@ -427,8 +427,9 @@ export default function FamilyChat() {
 
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
+                    
                     First thing to do for this project was to analyze what
-                    currently exists for commu nication apps for groups and more
+                    currently exists for communication apps for groups and more
                     specifically families. Of those existing apps we created a
                     graph of what thigns they had that overlapped, what
                     featrues, their target audience, downsides when compared to
@@ -1057,7 +1058,7 @@ export default function FamilyChat() {
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
                       Having a testable product in hand in preparation for
-                      showcasing to kids/younger crowd because they're more
+                      showcasing to kids/younger crowd because they&apos;re more
                       generally influenced by polish. A bunch of iterations
                       through Figma, multiple design meetings, ux principles,
                       color theory, component consistency, design system.
@@ -1137,7 +1138,7 @@ export default function FamilyChat() {
                       Letting middle schoolers and early highschoolers try out
                       the application and give feedback. Test our sales pitch.
                       How easy is the idea them to adopt? I personally like
-                      getting feedback from kids because they're blunt.
+                      getting feedback from kids because they&apos;re blunt.
                     </span>
                   </div>
                 </div>
@@ -1220,7 +1221,7 @@ export default function FamilyChat() {
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
                     Make changes to the project plan based on feedback gathered
-                    from STEM event, what's left, what we want to do, how that
+                    from STEM event, what&apos;s left, what we want to do, how that
                     matches with the user personas, new design ideas, stretch
                     goals, and project specs and reqs.
                   </span>
@@ -1255,7 +1256,7 @@ export default function FamilyChat() {
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      We recieved an invitation to join the ucf's senior design
+                      We recieved an invitation to join the ucf&apos;s senior design
                       semi-finalists event (spring 2022). only 6 out of ~52
                       possible teams from each discipline are selected to join.
                       there was a total of 188 teams out of the entire
@@ -1356,7 +1357,7 @@ export default function FamilyChat() {
                       highlighted in our insights/project criteria. Discord
                       added events and added a home button for servers which
                       showcases similar functionality for missed messages for
-                      users who want a quick glance at what they'be missed.
+                      users who want a quick glance at what they&apos;ve missed.
                     </span>
                   </div>
                 </div>
@@ -1418,7 +1419,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      What's next for FamilyChat? <b className="ml-8">⛳</b>
+                      What&apos;s next for FamilyChat? <b className="ml-8">⛳</b>
                     </span>
                   </div>
                 </div>
