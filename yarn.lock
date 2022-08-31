@@ -1300,10 +1300,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.6.3":
-  version: 18.6.5
-  resolution: "@types/node@npm:18.6.5"
-  checksum: e3e66c9a84b94010a57c1b9dac882c08484278d74f9d120dbe6a3e45d00740d178bd1d34a5deee28197c94b9f4359153b637bab9b305328e865027e9987a0f3d
+"@types/node@npm:^18.7.13":
+  version: 18.7.13
+  resolution: "@types/node@npm:18.7.13"
+  checksum: 45431e7e89ecaf85c7d2c180d801c132a7c59e2f8ad578726b6d71cc74e3267c18f9ccdcad738bc0479790c078f0c79efb0e58da2c6be535c15995dbb19050c9
   languageName: node
   linkType: hard
 
@@ -4164,7 +4164,7 @@ next@latest:
   dependencies:
     "@mui/icons-material": ^5.8.4
     "@nextui-org/react": ^1.0.0-beta.9
-    "@types/node": ^18.6.3
+    "@types/node": ^18.7.13
     "@types/react": ^18.0.15
     "@types/react-dom": ^18.0.6
     autoprefixer: ^10.4.8
