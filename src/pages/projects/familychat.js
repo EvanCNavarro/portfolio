@@ -490,7 +490,7 @@ export default function FamilyChat() {
                     <i>(16-35)</i>, middle-aged <i>(36-55)</i>, older
                     <i>(56-76)</i>. Our goal with this, was to focus on
                     interviewing each of these groups at different times during
-                    the project's lifespan.
+                    the project&apos;s lifespan.
                   </span>
                 </div>
 
@@ -961,8 +961,8 @@ export default function FamilyChat() {
                     <span className="">
                       Curating a mood board from family-friendly images, mobile
                       apps, color swatches, and soft pastels allowed for a clear
-                      direction of what the application's color pallete should
-                      be.
+                      direction of what the application&apos;s color pallete
+                      should be.
                     </span>
                   </div>
                 </div>
@@ -1025,7 +1025,7 @@ export default function FamilyChat() {
                     <span className="">
                       With plans to showcase the application to the
                       &quot;younger&quot; user group next, it was important to
-                      have the app's design and branding be on point.
+                      have the app&apos;s design and branding be on point.
                       Considering that our application was poised to be a
                       competitor to popular communication apps like iOS
                       Messages, Discord, and Snapchat; it was important to have
@@ -1100,7 +1100,7 @@ export default function FamilyChat() {
                         <li className="font-normal text-20 375:text-28">
                           <u className="underline-offset-8">Qualative</u>{" "}
                           feedback from these younger users, showed genuine
-                          understanding of the application's purpose and
+                          understanding of the application&apos;s purpose and
                           messaging functionality.
                         </li>
                       </ul>
@@ -1300,8 +1300,8 @@ export default function FamilyChat() {
                       className="mr-8 text-offBlack"
                     />
                     <span className="w-fit font-bold inline-block">
-                      Video snippet of the event's award ceremony, announcing
-                      FamilyChat as Best in Show.
+                      Video snippet of the event&apos;s award ceremony,
+                      announcing FamilyChat as Best in Show.
                     </span>
                   </div>
                 </div>
@@ -1333,9 +1333,9 @@ export default function FamilyChat() {
                   <span className="text-16 italic text-offGray">
                     (WHAT I LEARNED, WHAT I WOULD DO DIFFERENTLY, AND WHAT I
                     WOULD DO THE SAME) This project was the highlight of my
-                    academic career. This was the most involved I've been with
-                    the design process for any of my CS projects. This was a
-                    continuation of my Project Managment for projects, but was
+                    academic career. This was the most involved I&apos;ve been
+                    with the design process for any of my CS projects. This was
+                    a continuation of my Project Managment for projects, but was
                     the hardest test of those skills. I learned a lot about
                     myself. I learned extensively about React Native, Firebase,
                     Mobile Development, Documentation, UX Research, applying
