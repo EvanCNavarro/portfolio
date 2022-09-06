@@ -485,8 +485,8 @@ export default function FamilyChat() {
 
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
-                    Looking at our target audience of "16-76", we further split
-                    these users into three smaller groups; younger{" "}
+                    Looking at our target audience of &quot;16-76&quot;, we
+                    further split these users into three smaller groups; younger{" "}
                     <i>(16-35)</i>, middle-aged <i>(36-55)</i>, older
                     <i>(56-76)</i>. Our goal with this, was to focus on
                     interviewing each of these groups at different times during
@@ -1282,9 +1282,9 @@ export default function FamilyChat() {
                   <iframe
                     src="https://www.youtube.com/embed/jP9NH397LyQ?rel=0"
                     title="Senior Design Showcase Award Ceremony - Best in Show - FamilyChat"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                     className="w-full h-full rounded-3xl"
                   />
 
