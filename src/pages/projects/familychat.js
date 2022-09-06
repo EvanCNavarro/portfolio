@@ -231,6 +231,8 @@ export default function FamilyChat() {
                     alt="FamilyChat Case Study Banner"
                     objectFit="cover"
                     className="rounded tablet:rounded-3xl"
+                    priority={true}
+                    placeholder="blur"
                   />
                 </div>
 
@@ -382,6 +384,7 @@ export default function FamilyChat() {
                     alt="FamilyChat Case Study Banner"
                     objectFit="cover"
                     className="rounded tablet:rounded-3xl"
+                    placeholder="blur"
                   />
                 </div>
 
@@ -542,6 +545,7 @@ export default function FamilyChat() {
                       alt="Interviews for Middle-Aged User Group"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -777,6 +781,7 @@ export default function FamilyChat() {
                       alt="iPad Sketches of App UI"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -810,6 +815,7 @@ export default function FamilyChat() {
                       alt="Low Fidelity Figma Wireframes"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -979,6 +985,7 @@ export default function FamilyChat() {
                       alt="Color Influence for App's Aesthetic"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -1046,6 +1053,7 @@ export default function FamilyChat() {
                       alt="High-Fidelity Prototype Designs for FamilyChat"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -1120,6 +1128,7 @@ export default function FamilyChat() {
                       alt="High-Fidelity Prototype Designs for FamilyChat"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
@@ -1192,6 +1201,7 @@ export default function FamilyChat() {
                       alt="High-Fidelity Prototype Designs for FamilyChat"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
+                      placeholder="blur"
                     />
                   </div>
 
