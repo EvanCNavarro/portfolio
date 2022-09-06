@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <ContainerBlock>
       <Navbar />
-      <Banner />
+      {/* <Banner /> */}
       {/* <ProgessBar /> */}
       <Hero />
       <About />
