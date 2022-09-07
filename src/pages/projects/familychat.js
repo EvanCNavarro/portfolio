@@ -33,6 +33,7 @@ import familyChat4Inspiration from "/public/images/familychat/4_inspiration.png"
 import familyChat5FinalDesign from "/public/images/familychat/5_finalDesign.png";
 import familyChat6STEMDay from "/public/images/familychat/6_STEMDay.png";
 import familyChat7Avatars from "/public/images/familychat/7_avatars.png";
+import familyChatAppDemo from "/public/images/familychat/appDemo.gif";
 
 export default function FamilyChat() {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -50,7 +51,7 @@ export default function FamilyChat() {
   return (
     <ContainerBlock>
       <Navbar />
-      <Banner />
+      {/* <Banner /> */}
       <ProgressBar />
 
       <div
@@ -178,15 +179,15 @@ export default function FamilyChat() {
                 >
                   <span
                     className="
-                      flex flex-wrap justify-center align-middle items-center
+                      flex flex-wrap space-between
                       h-fit
                       text-16 text-offBlack font-normal
                       bg-white shadow-md px-20 py-12 rounded-full
                       375:text-20
                     "
                   >
-                    🗓️ <b className="ml-8">Date:</b>
-                    <div className="ml-8">May 2021 — 2022</div>
+                    🗓️ <b className="ml-4">Date:</b>
+                    <div className="flex flex-wrap ml-4">May 2021 — 2022</div>
                   </span>
 
                   <span
@@ -198,8 +199,8 @@ export default function FamilyChat() {
                       375:text-20
                     "
                   >
-                    🧑‍🎨 <b className="ml-8">Role:</b>
-                    <div className="ml-8">PM, Lead Designer</div>
+                    🧑‍🎨 <b className="ml-4">Role:</b>
+                    <div className="ml-4">PM, Lead Designer</div>
                   </span>
 
                   <span
@@ -211,8 +212,8 @@ export default function FamilyChat() {
                       375:text-20
                     "
                   >
-                    🏫 <b className="ml-8">Type:</b>
-                    <div className="ml-8">Senior Design</div>
+                    🏫 <b className="ml-4">Type:</b>
+                    <div className="ml-4">Senior Design</div>
                   </span>
                 </div>
               </div>
@@ -254,6 +255,7 @@ export default function FamilyChat() {
                   </span>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -280,7 +282,7 @@ export default function FamilyChat() {
                   <span className="text-20 375:text-28">
                     Existing apps like WhatsApp and iOS Messages are primary
                     options for most families, when deciding where to talk with
-                    each other. However, they lack:
+                    one another. However, they lack:
                     <ul className="ml-32 list-outside mt-12">
                       <li className="list-decimal text-20 375:text-28 font-bold">
                         The ability to organize conversations by
@@ -314,6 +316,7 @@ export default function FamilyChat() {
                   </span>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -339,17 +342,17 @@ export default function FamilyChat() {
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
                     Solving these challenges led to the creation of
-                    &quot;FamilyChat&quot;; a free-to-use iOS mobile
-                    application. This app improves family decision-making, by
-                    pairing standard messaging functionality with thoughtfully
-                    selected features like:
+                    &quot;FamilyChat&quot;; a free-to-use iOS mobile app. This
+                    app improves family decision-making, by pairing standard
+                    messaging functionality with thoughtfully selected features
+                    like:
                   </span>
                   <span className="">
                     <b className="">📌 Pinned Messages</b>,{" "}
-                    <b className="375:ml-8">⚠️ Alerts</b>,{" "}
-                    <b className="375:ml-8">🗳️ Polls</b>,{" "}
-                    <b className="375:ml-8">🎫 Events</b>,{" "}
-                    <b className="375:ml-8">📸 Images</b>.
+                    <b className="375:ml-4">⚠️ Alerts</b>,{" "}
+                    <b className="375:ml-4">🗳️ Polls</b>,{" "}
+                    <b className="375:ml-4">🎫 Events</b>,{" "}
+                    <b className="375:ml-4">📸 Images</b>.
                   </span>
                   <ul className="ml-24 mt-16 list-outside list-disc text-offGray">
                     <li className="font-normal text-20 375:text-28">
@@ -372,6 +375,7 @@ export default function FamilyChat() {
                   </ul>
                 </div>
               </div>
+
               <div className="space-y-16">
                 <div
                   className="
@@ -398,10 +402,11 @@ export default function FamilyChat() {
                   <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
                   <span className="w-fit font-bold">
                     Comparison of how group chats in iOS Messages <i>(left)</i>{" "}
-                    would be simplified within FamilyChat <i>(right)</i>.
+                    are simplified in FamilyChat <i>(right)</i>.
                   </span>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -423,7 +428,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      Focusing on Families <b className="ml-8">📲</b>
+                      Family Focused <b className="ml-8">📲</b>
                     </span>
                   </div>
                 </div>
@@ -459,13 +464,14 @@ export default function FamilyChat() {
                       Compared to the more succinct age groups targeted by
                       popular messaging applications like Snapchat for younger
                       users, FamilyChat is geared toward families as a whole. So
-                      to encompass the varying generations within a
-                      stereotypical family,{" "}
-                      <b>we set our target audience to 16-76 year old users</b>.
+                      to encompass the varying generations within a typical
+                      family,{" "}
+                      <b>we set our target audience to 16-76 year olds</b>.
                     </span>
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -481,7 +487,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      Guided by NN/g <b className="ml-8">🗣️</b>
+                      Guided by NN/g <b className="ml-4">🗣️</b>
                     </span>
                   </div>
                 </div>
@@ -489,11 +495,11 @@ export default function FamilyChat() {
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
                     Looking at our target audience of &quot;16-76&quot;, we
-                    further split these users into three smaller groups; younger{" "}
-                    <i>(16-35)</i>, middle-aged <i>(36-55)</i>, older
-                    <i>(56-76)</i>. Our goal with this, was to focus on
-                    interviewing each of these groups at different times during
-                    the project&apos;s lifespan.
+                    further split these users into three smaller groups;{" "}
+                    <b>younger</b> <i>(16-35)</i>, <b>middle-aged</b>{" "}
+                    <i>(36-55)</i>, <b>older</b> <i>(56-76)</i>. Our goal with
+                    this, was to focus on interviewing each of these groups at
+                    different times during the project&apos;s lifespan.
                   </span>
                 </div>
 
@@ -504,11 +510,11 @@ export default function FamilyChat() {
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      We interviewed a set of{" "}
+                      We interviewed{" "}
                       <i>
                         <b>four</b> middle-aged users
                       </i>{" "}
-                      about existing messaging applications, using questions
+                      about popular messaging applications, using questions
                       constructed from multiple{" "}
                       <Link href="https://www.nngroup.com/articles/user-interviews/">
                         <a
@@ -567,6 +573,7 @@ export default function FamilyChat() {
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   lg:px-24
@@ -589,11 +596,11 @@ export default function FamilyChat() {
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      The entire FamilyChat team sat down and discussed our
-                      findings from our Market Research and User Interviews.
-                      There were many overlapping constructs and ideas deduced
-                      from our findings but we distilled our findings into 3
-                      major insights.
+                      The entire FamilyChat team sat down to discuss our
+                      findings from the Competitive Analysis and User
+                      Interviews. There were many overlapping design constructs
+                      and feature ideas found, but we distilled all of the data
+                      into <b>three major insights</b>:
                     </span>
                   </div>
                 </div>
@@ -735,6 +742,7 @@ export default function FamilyChat() {
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -760,11 +768,11 @@ export default function FamilyChat() {
                     <span className="">
                       Starting with rough Procreate sketches on the iPad, we
                       created Low-Fidelity Prototypes of the application using
-                      components shared amongst a majority of the popular
-                      messaging apps. Another major design decision within the
-                      Authentication user journey, was the{" "}
-                      <b>removal of account passwords</b>; to help older users
-                      who have trouble remembering their login credentials.
+                      components shared amongst the popular messaging apps.
+                      Another major design decision within the Authentication
+                      user journey, was the <b>removal of account passwords</b>;
+                      to help older users who have trouble remembering their
+                      credentials.
                     </span>
                   </div>
                 </div>
@@ -837,6 +845,7 @@ export default function FamilyChat() {
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -886,7 +895,7 @@ export default function FamilyChat() {
                               />
                             </a>
                           </Link>
-                          <i className="text-offGray">for color theme.</i>
+                          <i className="text-offGray">for color theming.</i>
                         </li>
                         <li className="list-disc text-20 375:text-28 font-normal space-x-8">
                           <Link href="https://slack.com/accessibility">
@@ -908,7 +917,7 @@ export default function FamilyChat() {
                             </a>
                           </Link>
                           <i className="text-offGray">
-                            for styling of messages.
+                            for the styling of messages.
                           </i>
                         </li>
                         <li className="list-disc text-20 375:text-28 font-normal space-x-8">
@@ -951,7 +960,9 @@ export default function FamilyChat() {
                               />
                             </a>
                           </Link>
-                          <i className="text-offGray">for playfulness.</i>
+                          <i className="text-offGray">
+                            for design playfulness.
+                          </i>
                         </li>
                       </ul>
                     </span>
@@ -967,8 +978,7 @@ export default function FamilyChat() {
                     <span className="">
                       Curating a mood board from family-friendly images, mobile
                       apps, color swatches, and soft pastels allowed for a clear
-                      direction of what the application&apos;s color pallete
-                      should be.
+                      design direction of what the color pallete should be.
                     </span>
                   </div>
                 </div>
@@ -1002,11 +1012,12 @@ export default function FamilyChat() {
                     />
                     <span className="w-fit font-bold">
                       Using a mood board <i>(left)</i> to create color swatches{" "}
-                      <i>(middle)</i> for final brand colors <i>(right)</i>.
+                      <i>(middle)</i> for the branding <i>(right)</i>.
                     </span>
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -1030,13 +1041,13 @@ export default function FamilyChat() {
                 <div className="space-y-8">
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      With plans to showcase the application to the
-                      &quot;younger&quot; user group next, it was important to
-                      have the app&apos;s design and branding be on point.
-                      Considering that our application was poised to be a
-                      competitor to popular communication apps like iOS
-                      Messages, Discord, and Snapchat; it was important to have
-                      a well polished presentation for our younger users.
+                      With plans to also showcase our application to a group of
+                      &quot;younger&quot; users, it was important to have the
+                      app&apos;s design/branding be on point. Considering that
+                      our application was poised as a competitor to popular
+                      communication apps like iOS Messages, Discord, and
+                      Snapchat; it was very important to have a well polished
+                      interface for our young users.
                     </span>
                   </div>
                 </div>
@@ -1069,12 +1080,13 @@ export default function FamilyChat() {
                       className="mr-8 text-offBlack"
                     />
                     <span className="w-fit font-bold inline-block">
-                      Figma screens from the Final Prototype (High-Fidelity) for
+                      Figma screens from the High-Fidelity Prototype for
                       FamilyChat.
                     </span>
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -1090,7 +1102,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      Do the kids approve? <b className="ml-8">🧒</b>
+                      But, do the kids approve of it? <b className="ml-8">🧒</b>
                     </span>
                   </div>
                 </div>
@@ -1099,11 +1111,32 @@ export default function FamilyChat() {
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
                       The university <i>(UCF)</i> held an all day event{" "}
-                      <i>(STEM Day)</i> for middle-school and high-school
-                      students, to come an view STEM related Senior Design
-                      projects. This allowed my group to test our application
-                      with younger users, get input, and practice our
-                      &quot;sales pitch&quot;.
+                      <i>
+                        (
+                        <Link href="https://stem.ucf.edu/k-12-stem-outreach/stem-day/">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="
+                            group
+                          text-offBlack font-bold underline decoration-offBlack underline-offset-8
+                          transition ease-in-out duration-200
+                          hover:text-offTeal hover:decoration-offTeal
+                          "
+                          >
+                            <u>STEM Day</u>
+                            <FiArrowUpRight
+                              size={24}
+                              className="text-offBlack inline-block group-hover:text-offTeal transition ease-in-out duration-200"
+                            />
+                          </a>
+                        </Link>
+                        )
+                      </i>{" "}
+                      for middle-school and high-school students, to come view
+                      STEM-related Senior Design projects. Luckily, this allowed
+                      my group to test our application with younger users, get
+                      input, and practice our &quot;sales pitch&quot;.
                       <ul className="ml-24 mt-16 list-outside list-disc text-offGray">
                         <li className="font-normal text-20 375:text-28">
                           <u className="underline-offset-8">Qualative</u>{" "}
@@ -1144,12 +1177,13 @@ export default function FamilyChat() {
                       className="mr-8 text-offBlack"
                     />
                     <span className="w-fit font-bold inline-block">
-                      The FamilyChat demonstration/testing booth, during the
-                      STEM Day Event.
+                      FamilyChat&apos;s testing & demonstration booth, during
+                      the event.
                     </span>
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -1165,7 +1199,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      The Final Polishing <b className="ml-8">👨‍👩‍👧‍👦</b>
+                      The Final Polish <b className="ml-4">👨‍👩‍👧‍👦</b>
                     </span>
                   </div>
                 </div>
@@ -1173,17 +1207,16 @@ export default function FamilyChat() {
                 <div className="flex flex-wrap font-normal text-20 375:text-28">
                   <span className="">
                     Following the feedback from the <i>younger user group</i>,
-                    certain changes were made to the application:
+                    changes were made:
                     <ul className="ml-32 list-outside mt-12">
                       <li className="list-disc text-20 375:text-28 font-normal">
-                        create <b>friendlier</b> avatar images,
+                        <b>friendlier</b> avatar images,
                       </li>
                       <li className="list-disc text-20 375:text-28 font-normal">
-                        have <b>rounded avatar icons</b>, similar to popular
-                        apps,
+                        <b>rounded avatar icons</b> (similar to popular apps),
                       </li>
                       <li className="list-disc text-20 375:text-28 font-normal">
-                        and further <b>simplify the authentication process</b>.
+                        and a further <b>simplified authentication process</b>.
                       </li>
                     </ul>
                   </span>
@@ -1217,12 +1250,13 @@ export default function FamilyChat() {
                       className="mr-8 text-offBlack"
                     />
                     <span className="w-fit font-bold inline-block">
-                      Matching custom icons for Topics <i>(left)</i> and for
-                      Profile Avatars <i>(right)</i>.
+                      Matching custom icons for Topics <i>(left)</i> and Avatars{" "}
+                      <i>(right)</i>.
                     </span>
                   </div>
                 </div>
               </div>
+
               <div
                 className="
                   space-y-28
@@ -1238,7 +1272,7 @@ export default function FamilyChat() {
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      &quot;Last but not least...&quot;{" "}
+                      &quot;And the award goes to...&quot;{" "}
                       <b className="ml-8">👏</b>
                     </span>
                   </div>
@@ -1272,8 +1306,8 @@ export default function FamilyChat() {
                     <span className="">
                       FamilyChat was the <b>first CS team</b> <i>&</i>{" "}
                       <b>the first Student Sponsored project</b> to ever win
-                      &quot;Best In Show&quot; since this event&apos;s
-                      inception. <b className="mx-8">👀</b>
+                      &quot;Best in Show&quot; since the event&apos;s inception.{" "}
+                      <b className="mx-8">👀</b>
                     </span>
                     <FiCornerRightDown
                       size={24}
@@ -1319,51 +1353,199 @@ export default function FamilyChat() {
 
               <div
                 className="
-                  space-y-28
-                  lg:px-24
+                  space-y-28 pt-48
+                  lg:px-24 375:pt-0
                 "
               >
-                <div className="border-b pb-12">
-                  <div className="h-12 w-12 rounded-full bg-offRed mb-12" />
+                <div className="border-b pt-48 pb-12">
+                  <hr
+                    className="
+                      h-4 w-100 mb-24
+                      bg-offTeal
+                    "
+                  />
                   <div className="flex align-middle items-center text-offGray ">
                     <FiHash size={16} className="mr-8" />
                     <span className="text-16 font-plexMono font-bold ">
-                      Final Thoughts
+                      Conclusion
                     </span>
                   </div>
                   <div>
                     <span className="text-32 font-black 375:text-40">
-                      Any last words? <b className="ml-8">💬</b>
+                      Closing Notes <b className="ml-8">💬</b>
                     </span>
                   </div>
                 </div>
 
-                <div>
-                  {/* <span className="text-20 375:text-28"> */}
-                  <span className="text-16 italic text-offGray">
-                    (WHAT I LEARNED, WHAT I WOULD DO DIFFERENTLY, AND WHAT I
-                    WOULD DO THE SAME) This project was the highlight of my
-                    academic career. This was the most involved I&apos;ve been
-                    with the design process for any of my CS projects. This was
-                    a continuation of my Project Managment for projects, but was
-                    the hardest test of those skills. I learned a lot about
-                    myself. I learned extensively about React Native, Firebase,
-                    Mobile Development, Documentation, UX Research, applying
-                    Design Principles, Figma, creating a Design System. I
-                    learned how to work with a team of 5 people, and how to
-                    manage a team of 5 people. Since creating the FamilyChat
-                    application, Discord and WhatsApp have implemented changes
-                    to their app addressing some of the problems that we
-                    identitifed. Discord added Events and Home space for
-                    servers.
-                    https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events
-                    https://support.discord.com/hc/en-us/articles/6156116949911-Server-Home-Beta
-                    WhatsApp added communities.
-                    https://beebom.com/whatsapp-communities-better-organize-group-chats/
-                    Further development will continue on the app in November
-                    2022 with myself and JJ the student sponsor acting as the
-                    sole contributors. GIFs and Images of the final app.
-                  </span>
+                <div
+                  className="
+                    flex flex-wrap justify-between
+                    w-full space-y-40 lg:space-y-0
+                  "
+                >
+                  <div
+                    className="
+                      w-full justify-start
+                      lg:w-[64%]
+                    "
+                  >
+                    <span className="text-20 375:text-28">
+                      <ul className="ml-32 list-outside mt-12 space-y-16">
+                        <li className="list-disc text-20 375:text-28 font-normal">
+                          <b>FamilyChat</b> is a free iOS mobile messaging
+                          application helping encourage better decision making
+                          between families.
+                          <ul className="ml-0 list-outside">
+                            <li className="list-none text-20 375:text-28 font-normal text-offGray">
+                              →{" "}
+                              <Link href="https://github.com/EvanCNavarro/familychat">
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className=""
+                                >
+                                  <span
+                                    className="
+                                      group
+                                      text-offGray font-normal italic underline decoration-offGray underline-offset-8
+                                      transition ease-in-out duration-200
+                                      hover:text-offTeal hover:decoration-offTeal
+                                    "
+                                  >
+                                    GitHub
+                                    <FiArrowUpRight
+                                      size={24}
+                                      className="mx-4 text-offGray inline-block group-hover:text-offTeal transition ease-in-out duration-200"
+                                    />
+                                  </span>
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="list-disc text-20 375:text-28 font-normal">
+                          I acted as Project Manager, <b>Lead Designer</b>, and
+                          half of the final Mobile Development team.
+                          <ul className="ml-0 list-outside">
+                            <li className="list-none text-20 375:text-28 font-normal text-offBlack">
+                              →{" "}
+                              <Link href="https://youtu.be/LG5ixiqMXjg?t=478">
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className=""
+                                >
+                                  <span
+                                    className="
+                                      group
+                                      text-offBlack font-normal italic underline decoration-offBlack underline-offset-8
+                                      transition ease-in-out duration-200
+                                      before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-offTeal/20 relative inline-block
+                                      hover:text-offTeal hover:decoration-offTeal
+                                    "
+                                  >
+                                    Video Showcase
+                                    <FiArrowUpRight
+                                      size={24}
+                                      className="mx-4 text-offBlack inline-block group-hover:text-offTeal transition ease-in-out duration-200"
+                                    />
+                                  </span>
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li className="list-disc text-20 375:text-28 font-normal">
+                          We won <b>&quot;Best in Show&quot;</b> out of all of
+                          the Spring &apos;22 SD projects for my graduating
+                          class.
+                          <ul className="ml-0 list-outside">
+                            <li className="list-none text-20 375:text-28 font-normal text-offGray">
+                              →{" "}
+                              <Link href="https://drive.google.com/file/d/1_hdo9p-AH3QMjOE96A1HwcuN25dwEeqH/view?usp=sharing">
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className=""
+                                >
+                                  <span
+                                    className="
+                                      group
+                                      text-offGray font-normal italic underline decoration-offGray underline-offset-8
+                                      transition ease-in-out duration-200
+                                      hover:text-offTeal hover:decoration-offTeal
+                                    "
+                                  >
+                                    Award Certificate
+                                    <FiArrowUpRight
+                                      size={24}
+                                      className="mx-4 text-offGray inline-block group-hover:text-offTeal transition ease-in-out duration-200"
+                                    />
+                                  </span>
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li className="list-disc text-20 375:text-28 font-normal">
+                          This project allowed me to learn and practice{"  "}
+                          <b>User Focused Design</b> & <b>Mobile Development</b>
+                          .
+                          <ul className="ml-0 list-outside">
+                            <li className="list-none text-20 375:text-24 font-normal text-offGray italic">
+                              (Ask me about: future updates & Discord events)
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      {/* https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events
+                      https://support.discord.com/hc/en-us/articles/6156116949911-Server-Home-Beta
+                      https://beebom.com/whatsapp-communities-better-organize-group-chats/ */}
+                    </span>
+                  </div>
+
+                  <div
+                    className="
+                      flex flex-wrap justify-center
+                      w-full h-fit
+                      lg:w-[32%] lg:justify-end
+                    "
+                  >
+                    <div
+                      className="
+                      w-full h-fit
+                      390:h-680 390:w-348
+                    "
+                    >
+                      <div className="drop-shadow-lg">
+                        <Image
+                          src={familyChatAppDemo}
+                          alt="High-Fidelity Prototype Designs for FamilyChat"
+                          objectFit="fit"
+                          className="rounded-3xl"
+                          priority={true}
+                        />
+                      </div>
+
+                      <div
+                        className="
+                      flex
+                      w-fit ml-24 mr-4
+                      text-16 text-offBlack font-normal font-plexMono
+                    "
+                      >
+                        <FiCornerDownRight
+                          size={24}
+                          className="mr-8 text-offBlack"
+                        />
+                        <span className="w-fit font-bold inline-block">
+                          Brief demo of the app.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
