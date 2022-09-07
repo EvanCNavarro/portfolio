@@ -1354,7 +1354,7 @@ export default function FamilyChat() {
               <div
                 className="
                   space-y-28 pt-48
-                  lg:px-24 375:pt-0
+                  lg:px-24 lg:pt-0
                 "
               >
                 <div className="border-b pt-48 pb-12">
