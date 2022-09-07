@@ -152,6 +152,7 @@ export default function Projects() {
                             height={"60%"}
                             objectFit="contain"
                             className="rounded-xl"
+                            placeholder="blur"
                           />
                         </div>
                       ) : null}
@@ -422,6 +423,7 @@ export default function Projects() {
                             height={"60%"}
                             objectFit="contain"
                             className="rounded-xl"
+                            placeholder="blur"
                           />
                         </div>
                       ) : null}
@@ -692,6 +694,7 @@ export default function Projects() {
                             height={"60%"}
                             objectFit="contain"
                             className="rounded-xl"
+                            placeholder="blur"
                           />
                         </div>
                       ) : null}
@@ -961,6 +964,7 @@ export default function Projects() {
                             height={"60%"}
                             objectFit="contain"
                             className="rounded-xl"
+                            placeholder="blur"
                           />
                         </div>
                       ) : null}
