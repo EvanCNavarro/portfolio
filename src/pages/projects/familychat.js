@@ -19,6 +19,15 @@ import {
   FiCornerDownRight,
 } from "react-icons/fi";
 
+import {
+  SiLinkedin,
+  SiGithub,
+  SiTwitter,
+  SiGmail,
+  SiInstagram,
+  SiFacebook,
+} from "react-icons/si";
+
 import Image from "next/image";
 
 import logoFamilyChat from "/public/images/logos/familychat.png";
@@ -125,7 +134,11 @@ export default function FamilyChat() {
                       375:text-20
                     "
                   >
-                    🔗 <i className="ml-8">: </i>
+                    <SiGithub
+                      size={atLeast375 ? 20 : 16}
+                      className="text-offBlack"
+                    />{" "}
+                    <i className="ml-8">: </i>
                   </span>
                   <span
                     className="
