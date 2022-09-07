@@ -15,6 +15,33 @@ import logoObjectively from "/public/images/logos/objectively.png";
 import logoKeymorph from "/public/images/logos/keymorph.png";
 import logoEvanCNavarro from "/public/images/logos/evancnavarro.png";
 
+// import projectCardFamilyChat0 from "/public/images/familychat/projectCard_0.png";
+// import projectCardFamilyChat1 from "/public/images/familychat/projectCard_1.png";
+// import projectCardFamilyChat2 from "/public/images/familychat/projectCard_2.png";
+// import projectCardFamilyChat3 from "/public/images/familychat/projectCard_3.png";
+// import projectCardFamilyChat4 from "/public/images/familychat/projectCard_4.png";
+// import projectCardFamilyChat5 from "/public/images/familychat/projectCard_5.png";
+// import projectCardFamilyChat6 from "/public/images/familychat/projectCard_6.png";
+// import projectCardFamilyChat7 from "/public/images/familychat/projectCard_7.png";
+// import projectCardFamilyChat8 from "/public/images/familychat/projectCard_8.png";
+// import projectCardFamilyChat9 from "/public/images/familychat/projectCard_9.png";
+
+import projectCardFamilyChat10_320 from "/public/images/familychat/projectCard_10_320.png";
+import projectCardFamilyChat10_480 from "/public/images/familychat/projectCard_10_480.png";
+import projectCardFamilyChat10_800 from "/public/images/familychat/projectCard_10_800.png";
+
+import projectCardObjectively1_320 from "/public/images/objectively/projectCard_1_320.png";
+import projectCardObjectively1_480 from "/public/images/objectively/projectCard_1_480.png";
+import projectCardObjectively1_800 from "/public/images/objectively/projectCard_1_800.png";
+
+import projectCardKeymorph1_320 from "/public/images/keymorph/projectCard_1_320.png";
+import projectCardKeymorph1_480 from "/public/images/keymorph/projectCard_1_480.png";
+import projectCardKeymorph1_800 from "/public/images/keymorph/projectCard_1_800.png";
+
+import projectCardSnippets1_320 from "/public/images/snippets/projectCard_1_320.png";
+import projectCardSnippets1_480 from "/public/images/snippets/projectCard_1_480.png";
+import projectCardSnippets1_800 from "/public/images/snippets/projectCard_1_800.png";
+
 export default function Projects() {
   const [screenWidth, setScreenWidth] = useState(0);
 
@@ -26,6 +53,7 @@ export default function Projects() {
   }, []);
 
   const biggerThan480 = screenWidth > 479;
+  const biggerThan800 = screenWidth > 799;
 
   return (
     <div
@@ -111,20 +139,49 @@ export default function Projects() {
                   className="
                     flex flex-wrap
                     w-full overflow-hidden
-                    rounded-t-3xl bg-black
+                    rounded-t-3xl bg-offWhite/50
                     lg:rounded-tr-none lg:rounded-l-3xl lg:w-1/3
                   "
                 >
-                  FamilyChat
-                  {/* <div className="relative w-480 h-full">
-                    <Image
-                      src={coverFamilyChat}
-                      alt="FamilyChat Project Card Banner"
-                      placeholder="blur"
-                      objectFit="cover"
-                      className=""
-                    />
-                  </div> */}
+                  {biggerThan800 ? (
+                    <div className="flex w-fit h-full">
+                      <Image
+                        src={projectCardFamilyChat10_800}
+                        alt="FamilyChat Project Card Banner"
+                        placeholder="blur"
+                        objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                        layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                        height={"100%"}
+                        className=""
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      {biggerThan480 ? (
+                        <div className="flex w-fit h-full">
+                          <Image
+                            src={projectCardFamilyChat10_480}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      ) : (
+                        <div className="flex w-full h-full">
+                          <Image
+                            src={projectCardFamilyChat10_320}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
 
                 <div
@@ -382,20 +439,49 @@ export default function Projects() {
                   className="
                     flex flex-wrap
                     w-full overflow-hidden
-                    rounded-t-3xl bg-black
+                    rounded-t-3xl bg-offWhite/50
                     lg:rounded-tr-none lg:rounded-l-3xl lg:w-1/3
                   "
                 >
-                  Objectively
-                  {/* <div className="relative w-480 h-full">
-                    <Image
-                      src={coverFamilyChat}
-                      alt="FamilyChat Project Card Banner"
-                      placeholder="blur"
-                      objectFit="cover"
-                      className=""
-                    />
-                  </div> */}
+                  {biggerThan800 ? (
+                    <div className="flex w-fit h-full">
+                      <Image
+                        src={projectCardObjectively1_800}
+                        alt="FamilyChat Project Card Banner"
+                        placeholder="blur"
+                        objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                        layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                        height={"100%"}
+                        className=""
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      {biggerThan480 ? (
+                        <div className="flex w-fit h-full">
+                          <Image
+                            src={projectCardObjectively1_480}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      ) : (
+                        <div className="flex w-full h-full">
+                          <Image
+                            src={projectCardObjectively1_320}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
 
                 <div
@@ -653,20 +739,49 @@ export default function Projects() {
                   className="
                     flex flex-wrap
                     w-full overflow-hidden
-                    rounded-t-3xl bg-black
+                    rounded-t-3xl bg-offWhite/50
                     lg:rounded-tr-none lg:rounded-l-3xl lg:w-1/3
                   "
                 >
-                  Keymorph
-                  {/* <div className="relative w-480 h-full">
-                    <Image
-                      src={coverFamilyChat}
-                      alt="FamilyChat Project Card Banner"
-                      placeholder="blur"
-                      objectFit="cover"
-                      className=""
-                    />
-                  </div> */}
+                  {biggerThan800 ? (
+                    <div className="flex w-fit h-full">
+                      <Image
+                        src={projectCardKeymorph1_800}
+                        alt="FamilyChat Project Card Banner"
+                        placeholder="blur"
+                        objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                        layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                        height={"100%"}
+                        className=""
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      {biggerThan480 ? (
+                        <div className="flex w-fit h-full">
+                          <Image
+                            src={projectCardKeymorph1_480}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      ) : (
+                        <div className="flex w-full h-full">
+                          <Image
+                            src={projectCardKeymorph1_320}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
 
                 <div
@@ -923,20 +1038,49 @@ export default function Projects() {
                   className="
                     flex flex-wrap
                     w-full overflow-hidden
-                    rounded-t-3xl bg-black
+                    rounded-t-3xl bg-offWhite/50
                     lg:rounded-tr-none lg:rounded-l-3xl lg:w-1/3
                   "
                 >
-                  Design Snippets
-                  {/* <div className="relative w-480 h-full">
-                    <Image
-                      src={coverFamilyChat}
-                      alt="FamilyChat Project Card Banner"
-                      placeholder="blur"
-                      objectFit="cover"
-                      className=""
-                    />
-                  </div> */}
+                  {biggerThan800 ? (
+                    <div className="flex w-fit h-full">
+                      <Image
+                        src={projectCardSnippets1_800}
+                        alt="FamilyChat Project Card Banner"
+                        placeholder="blur"
+                        objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                        layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                        height={"100%"}
+                        className=""
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      {biggerThan480 ? (
+                        <div className="flex w-fit h-full">
+                          <Image
+                            src={projectCardSnippets1_480}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      ) : (
+                        <div className="flex w-full h-full">
+                          <Image
+                            src={projectCardSnippets1_320}
+                            alt="FamilyChat Project Card Banner"
+                            placeholder="blur"
+                            objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
+                            layout="intrinsic" // fixed, responsive, fill, or intrinsic
+                            className=""
+                          />
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
 
                 <div
