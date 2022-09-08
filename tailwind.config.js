@@ -53,6 +53,7 @@ module.exports = {
       offGreen: "#198754",
       offBlue: "#0088FF",
       offRed: "#E0393E",
+      offOrange: "#F79000",
     },
     fontSize: {
       4: "0.25rem",
