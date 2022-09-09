@@ -629,9 +629,10 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit mt-24
-                      bg-offWhite/50 rounded-3xl p-24 space-y-20
+                      bg-gradient-to-b from-offWhite/40 to-white
+                      rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      shadow-lg
+                      shadow
                       375:mt-32 md:w-[280px] md:mt-48 lg:w-[328px] xl:mt-0 xl:w-[280px]
                     "
                   >
@@ -673,9 +674,10 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit
-                      bg-offWhite/50 rounded-3xl p-24 space-y-20
+                      bg-gradient-to-b from-offWhite/40 to-white
+                      rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      shadow-lg
+                      shadow
                       md:w-[280px] lg:w-[328px] xl:w-[280px]
                     "
                   >
@@ -714,9 +716,10 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit
-                      bg-offWhite/50 rounded-3xl p-24 space-y-20
+                      bg-gradient-to-b from-offWhite/40 to-white
+                      rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      shadow-lg
+                      shadow
                       md:w-[280px] lg:w-[328px] xl:w-[280px]
                     "
                   >
@@ -1063,7 +1066,7 @@ export default function FamilyChat() {
                       our application was poised as a competitor to popular
                       communication apps like iOS Messages, Discord, and
                       Snapchat; it was very important to have a well polished
-                      interface for our young users.
+                      interface for our <i>younger</i> users.
                     </span>
                   </div>
                 </div>
@@ -1478,7 +1481,7 @@ export default function FamilyChat() {
                           .
                           <ul className="ml-0 list-outside">
                             <li className="list-none text-20 375:text-24 font-normal text-offGray italic">
-                              (Ask me about: future updates & Discord events)
+                              (<i className="text-20 375:text-28">Ask me about:</i> future updates & Discord events)
                             </li>
                           </ul>
                         </li>
