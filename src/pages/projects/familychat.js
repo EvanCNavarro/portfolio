@@ -36,6 +36,7 @@ import familyChatBanner2 from "/public/images/familychat/banner2.png";
 import familyChatBanner3 from "/public/images/familychat/banner3.png";
 import familyChat1Groups from "/public/images/familychat/1_groups.png";
 import familyChat2Interviews from "/public/images/familychat/2_interviews.png";
+import familyChat2BInterviews from "/public/images/familychat/2B_interviews.png";
 import familyChat3ASketches from "/public/images/familychat/3A_sketches.png";
 import familyChat3BLowFidelity from "/public/images/familychat/3B_lowFidelity.png";
 import familyChat4Inspiration from "/public/images/familychat/4_inspiration.png";
@@ -260,10 +261,10 @@ export default function FamilyChat() {
                   <FiCornerDownRight size={24} className="mr-8 text-offBlack" />
                   <span className="w-fit font-bold">
                     &quot;FamilyChat&quot; being awarded{"  "}
-                    <b className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/10 relative inline-block">
+                    <b className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/20 relative inline-block">
                       &quot;Best in Show&quot;
                     </b>
-                    , during UCF&apos;s Spring 2022 Senior Design Finalists
+                    , during UCF&apos;s Spring 2022 Senior Design Showcase
                     Event.
                   </span>
                 </div>
@@ -272,11 +273,12 @@ export default function FamilyChat() {
               <div
                 className="
                   space-y-28
+                  rounded-3xl border-8 border-offRed/90 p-24
                   lg:px-24
                 "
               >
                 <div className="border-b pb-12">
-                  <div className="h-12 w-12 rounded-full bg-offRed mb-12" />
+                  {/* <div className="h-12 w-12 rounded-full bg-offRed mb-12" /> */}
                   <div className="flex align-middle items-center text-offGray ">
                     <FiHash size={16} className="mr-8" />
                     <span className="text-16 font-plexMono font-bold ">
@@ -333,11 +335,12 @@ export default function FamilyChat() {
               <div
                 className="
                   space-y-28
+                  rounded-3xl border-8 border-offGreen/90 p-24
                   lg:px-24
                 "
               >
                 <div className="border-b pb-12">
-                  <div className="h-12 w-12 rounded-full bg-offGreen mb-12" />
+                  {/* <div className="h-12 w-12 rounded-full bg-offGreen mb-12" /> */}
 
                   <div className="flex align-middle items-center text-offGray">
                     <FiHash size={16} className="mr-8" />
@@ -369,7 +372,7 @@ export default function FamilyChat() {
                   </span>
                   <ul className="ml-24 mt-16 list-outside list-disc text-offGray">
                     <li className="font-normal text-20 375:text-28">
-                      <u className="underline-offset-8">Qualative</u> feedback
+                      <u className="underline-offset-8">Qualitative</u> feedback
                       from three user trials, showed a majority of positive
                       responses regarding the app;{" "}
                       <i>
@@ -525,7 +528,7 @@ export default function FamilyChat() {
                     <span className="">
                       We interviewed{" "}
                       <i>
-                        <b>four</b> middle-aged users
+                        <b>four</b> older users
                       </i>{" "}
                       about popular messaging applications, using questions
                       constructed from multiple{" "}
@@ -555,12 +558,12 @@ export default function FamilyChat() {
                 <div className="space-y-16 pt-28">
                   <div
                     className="
-                  w-full max-h-400
-                  drop-shadow-lg
+                  w-full max-h-400 h-fit
+                  border-2 border-offWhite rounded tablet:rounded-3xl shadow-lg
                 "
                   >
                     <Image
-                      src={familyChat2Interviews}
+                      src={familyChat2BInterviews}
                       alt="Interviews for Middle-Aged User Group"
                       objectFit="cover"
                       className="rounded tablet:rounded-3xl"
@@ -580,8 +583,7 @@ export default function FamilyChat() {
                       className="mr-8 text-offBlack"
                     />
                     <span className="w-fit font-bold">
-                      Findings from the User Interviews, of the Middle-Aged User
-                      Group.
+                      Findings from the Older user group Interviews.
                     </span>
                   </div>
                 </div>
@@ -627,9 +629,9 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit mt-24
-                      bg-offWhite rounded-3xl p-24 space-y-20
+                      bg-offWhite/50 rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      drop-shadow-lg
+                      shadow-lg
                       375:mt-32 md:w-[280px] md:mt-48 lg:w-[328px] xl:mt-0 xl:w-[280px]
                     "
                   >
@@ -671,9 +673,9 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit
-                      bg-offWhite rounded-3xl p-24 space-y-20
+                      bg-offWhite/50 rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      drop-shadow-lg
+                      shadow-lg
                       md:w-[280px] lg:w-[328px] xl:w-[280px]
                     "
                   >
@@ -712,9 +714,9 @@ export default function FamilyChat() {
                   <div
                     className="
                       min-w-[280px] w-full h-fit
-                      bg-offWhite rounded-3xl p-24 space-y-20
+                      bg-offWhite/50 rounded-3xl p-24 space-y-20
                       font-plexSans text-16 text-offBlack
-                      drop-shadow-lg
+                      shadow-lg
                       md:w-[280px] lg:w-[328px] xl:w-[280px]
                     "
                   >
@@ -779,13 +781,14 @@ export default function FamilyChat() {
                 <div className="space-y-8">
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
                     <span className="">
-                      Starting with rough Procreate sketches on the iPad, we
-                      created Low-Fidelity Prototypes of the application using
-                      components shared amongst the popular messaging apps.
-                      Another major design decision within the Authentication
-                      user journey, was the <b>removal of account passwords</b>;
-                      to help older users who have trouble remembering their
-                      credentials.
+                      After starting with rough sketches{" "}
+                      <i>(in Procreate for the iPad)</i>, we then created
+                      Low-Fidelity Prototypes using components we identified as
+                      being shared between popular messaging apps; like rounded
+                      corners, leading icons, and simple text. One major design
+                      decision, for the User Authentication journey, was{" "}
+                      <b>removing account passwords</b>; to help older users who
+                      have trouble remembering their credentials.
                     </span>
                   </div>
                 </div>
@@ -1152,7 +1155,7 @@ export default function FamilyChat() {
                       input, and practice our &quot;sales pitch&quot;.
                       <ul className="ml-24 mt-16 list-outside list-disc text-offGray">
                         <li className="font-normal text-20 375:text-28">
-                          <u className="underline-offset-8">Qualative</u>{" "}
+                          <u className="underline-offset-8">Qualitative</u>{" "}
                           feedback from these younger users, showed genuine
                           understanding of the application&apos;s purpose and
                           messaging functionality.
@@ -1191,7 +1194,7 @@ export default function FamilyChat() {
                     />
                     <span className="w-fit font-bold inline-block">
                       FamilyChat&apos;s testing & demonstration booth, during
-                      the event.
+                      the STEM Day Event.
                     </span>
                   </div>
                 </div>
@@ -1293,7 +1296,7 @@ export default function FamilyChat() {
 
                 <div className="space-y-8">
                   <span className="text-20 font-black 375:text-28">
-                    Semi-Finalist Projects
+                    Semi-Finalists
                   </span>
 
                   <div className="flex flex-wrap font-normal text-20 375:text-28">
@@ -1470,6 +1473,17 @@ export default function FamilyChat() {
                         </li>
 
                         <li className="list-disc text-20 375:text-28 font-normal">
+                          This project allowed me to learn and practice{"  "}
+                          <b>User Focused Design</b> & <b>Mobile Development</b>
+                          .
+                          <ul className="ml-0 list-outside">
+                            <li className="list-none text-20 375:text-24 font-normal text-offGray italic">
+                              (Ask me about: future updates & Discord events)
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li className="list-disc text-20 375:text-28 font-normal">
                           We won <b>&quot;Best in Show&quot;</b> out of all of
                           the Spring &apos;22 SD projects for my graduating
                           class.
@@ -1498,17 +1512,6 @@ export default function FamilyChat() {
                                   </span>
                                 </a>
                               </Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li className="list-disc text-20 375:text-28 font-normal">
-                          This project allowed me to learn and practice{"  "}
-                          <b>User Focused Design</b> & <b>Mobile Development</b>
-                          .
-                          <ul className="ml-0 list-outside">
-                            <li className="list-none text-20 375:text-24 font-normal text-offGray italic">
-                              (Ask me about: future updates & Discord events)
                             </li>
                           </ul>
                         </li>
