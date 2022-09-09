@@ -248,7 +248,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   transition ease-in-out duration-200
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
@@ -263,7 +263,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   transition ease-in-out duration-200
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
@@ -278,7 +278,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   transition ease-in-out duration-200
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
@@ -293,7 +293,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -307,7 +307,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -321,7 +321,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -343,7 +343,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -357,7 +357,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -371,7 +371,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -387,7 +387,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -395,13 +395,13 @@ export default function Contact() {
                     <SiInstagram size={48} className="text-offBlack" />
                   </a>
                 </Link>
-                
+
                 <Link href="mailto:hey@ecn.dev" passHref={true}>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
@@ -415,7 +415,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group cursor-ne-resize
+                  group
                   px-20 py-16 rounded-lg
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
