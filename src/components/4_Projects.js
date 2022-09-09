@@ -153,6 +153,7 @@ export default function Projects() {
                         layout="intrinsic" // fixed, responsive, fill, or intrinsic
                         height={"100%"}
                         className=""
+                        priority={true}
                       />
                     </div>
                   ) : (
@@ -166,6 +167,7 @@ export default function Projects() {
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
                             className=""
+                            priority={true}
                           />
                         </div>
                       ) : (
@@ -210,6 +212,7 @@ export default function Projects() {
                             objectFit="contain"
                             className="rounded-xl"
                             placeholder="blur"
+                            priority={true}
                           />
                         </div>
                       ) : null}
@@ -448,6 +451,7 @@ export default function Projects() {
                       <Image
                         src={projectCardObjectively1_800}
                         alt="FamilyChat Project Card Banner"
+                        priority={true}
                         placeholder="blur"
                         objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                         layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -462,6 +466,7 @@ export default function Projects() {
                           <Image
                             src={projectCardObjectively1_480}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -473,6 +478,7 @@ export default function Projects() {
                           <Image
                             src={projectCardObjectively1_320}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -510,6 +516,7 @@ export default function Projects() {
                             objectFit="contain"
                             className="rounded-xl"
                             placeholder="blur"
+                            priority={true}
                           />
                         </div>
                       ) : null}
@@ -748,6 +755,7 @@ export default function Projects() {
                       <Image
                         src={projectCardKeymorph1_800}
                         alt="FamilyChat Project Card Banner"
+                        priority={true}
                         placeholder="blur"
                         objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                         layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -762,6 +770,7 @@ export default function Projects() {
                           <Image
                             src={projectCardKeymorph1_480}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -773,6 +782,7 @@ export default function Projects() {
                           <Image
                             src={projectCardKeymorph1_320}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -810,6 +820,7 @@ export default function Projects() {
                             objectFit="contain"
                             className="rounded-xl"
                             placeholder="blur"
+                            priority={true}
                           />
                         </div>
                       ) : null}
@@ -1047,6 +1058,7 @@ export default function Projects() {
                       <Image
                         src={projectCardSnippets1_800}
                         alt="FamilyChat Project Card Banner"
+                        priority={true}
                         placeholder="blur"
                         objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                         layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -1061,6 +1073,7 @@ export default function Projects() {
                           <Image
                             src={projectCardSnippets1_480}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -1072,6 +1085,7 @@ export default function Projects() {
                           <Image
                             src={projectCardSnippets1_320}
                             alt="FamilyChat Project Card Banner"
+                            priority={true}
                             placeholder="blur"
                             objectFit="cover" // "cover" | "contain" | "fill" | "none" | "scale-down"
                             layout="intrinsic" // fixed, responsive, fill, or intrinsic
@@ -1109,6 +1123,7 @@ export default function Projects() {
                             objectFit="contain"
                             className="rounded-xl"
                             placeholder="blur"
+                            priority={true}
                           />
                         </div>
                       ) : null}
