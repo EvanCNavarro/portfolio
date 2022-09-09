@@ -15,7 +15,7 @@ export default function About() {
       className="
         flex flex-wrap justify-center relative
         h-fit w-full 
-        bg-gradient-to-b from-white to-offPaper
+        bg-gradient-to-b from-white to-offWhite
       "
     >
       <div
@@ -64,13 +64,14 @@ export default function About() {
           font-plexSans font-normal text-32 italic
         "
         >
-          <div className="flex flex-wrap justify-center text-center md:text-start xl:space-x-8">
-            <div className="text-offGray border-l-4 border-offPaper rounded-r-lg pl-16 pt-16 pb-32">
+          <div className="flex flex-wrap justify-center md:text-start xl:space-x-8">
+            {/* <div className="text-offGray border-l-4 border-offPaper rounded-r-lg pl-16 pt-16 pb-32"> */}
+            <div className="text-offGray text-center border-offPaper rounded-r-lg pt-16 pb-32 xl:text-start xl:pl-0">
               <span className="">
                 &quot;My primary goal when designing products is to:{" "}
               </span>
               <span>
-                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/50 relative inline-block">
+                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-offTeal/20 relative inline-block">
                   <span className="relative text-offBlack font-semibold">
                     digitize empathy
                   </span>
@@ -94,7 +95,7 @@ export default function About() {
           className="
             flex justify-center
             h-80 w-280 mb-20 space-x-8
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
             xl:mb-40
           "
@@ -102,7 +103,7 @@ export default function About() {
           <span
             className="
               flex items-center justify-center align-middle
-              mx-8
+              mx-4
               drop-shadow-md
               text-32 
             "
@@ -114,18 +115,20 @@ export default function About() {
           </div>
         </div>
 
+        {/* border-white border-dashed border-4 bg-offWhite */}
+
         <div
           className="
             flex justify-center
             h-80 w-280 mb-20 space-x-8
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
           "
         >
           <span
             className="
               flex items-center justify-center align-middle
-              mx-8
+              mx-4
               drop-shadow-md
               text-32 
             "
@@ -141,7 +144,7 @@ export default function About() {
           className="
             flex items-center justify-center align-middle
             h-80 w-280 mb-20
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
           "
         >
@@ -168,7 +171,7 @@ export default function About() {
           className="
             flex items-center justify-center align-middle
             h-80 w-280 mb-20
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
           "
         >
@@ -195,11 +198,11 @@ export default function About() {
           className="
             flex justify-center items-center 
             h-80 w-280 mb-20
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
           "
         >
-          <div className="flex justify-center items-center space-x-16">
+          <div className="flex justify-center items-center space-x-12">
             <div className="">
               {/* <span className="drop-shadow-md text-32">🖥️</span> */}
               <Image
@@ -223,14 +226,14 @@ export default function About() {
           className="
             flex justify-center
             h-80 w-280 p-24 space-x-8 
-            rounded-2xl shadow-neumorphism
+            rounded-full bg-white
             text-20 text-offBlack font-normal
           "
         >
           <span
             className="
               flex items-center justify-center align-middle
-              mx-8
+              mx-4
               drop-shadow-md
               text-32 
             "
