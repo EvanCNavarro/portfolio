@@ -34,10 +34,6 @@ export default function Footer() {
   const currentYear = currentDate.getFullYear();
   const currentMonth = monthNames[currentDate.getMonth()];
 
-  console.log(
-    `\n"Hey there! 👋🤓💻\nThanks for visiting my website.\nI hope you enjoy it!"\n\n- Evan C. Navarro (${currentMonth} 2022)\n\n`
-  );
-
   return (
     <nav
       className="

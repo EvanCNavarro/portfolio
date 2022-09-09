@@ -31,29 +31,6 @@ export default function SiteInformation() {
 
   const isDesktop = screenWidth > 799;
 
-  const monthNames = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  const currentDate = new Date();
-  const currentYear = currentDate.getFullYear();
-  const currentMonth = monthNames[currentDate.getMonth()];
-
-  console.log(
-    `\n"Hey there! 👋🤓💻\nThanks for visiting my website.\nI hope you enjoy it!"\n\n- Evan C. Navarro (${currentMonth} 2022)\n\n`
-  );
-
   return (
     <div
       className="
