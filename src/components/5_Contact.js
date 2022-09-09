@@ -24,6 +24,8 @@ import {
   SiFacebook,
 } from "react-icons/si";
 
+import { IoDocumentText } from "react-icons/io5";
+
 export default function Contact() {
   const [screenWidth, setScreenWidth] = useState(0);
 
@@ -286,36 +288,6 @@ export default function Contact() {
                 </a>
               </Link>
 
-              <Link href="mailto:hey@ecn.dev" passHref={true}>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                  group cursor-ne-resize
-                  px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
-                "
-                >
-                  <SiGmail size={48} className="text-offBlack" />
-                </a>
-              </Link>
-
-              <Link href="https://monkeytype.com/profile/v81kVLEUJkTjMGdW4ptIkXG2DhD3">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                  group cursor-ne-resize
-                  px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
-                "
-                >
-                  <FaKeyboard size={48} className="text-offBlack" />
-                </a>
-              </Link>
-
               <Link href="https://www.instagram.com/EvanCNavarro/">
                 <a
                   target="_blank"
@@ -323,11 +295,38 @@ export default function Contact() {
                   className="
                   group cursor-ne-resize
                   px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiInstagram size={48} className="text-offBlack" />
+                </a>
+              </Link>
+
+              <Link href="mailto:hey@ecn.dev" passHref={true}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                  group cursor-ne-resize
+                  px-20 py-16 rounded-lg
+                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                "
+                >
+                  <SiGmail size={48} className="text-offBlack" />
+                </a>
+              </Link>
+
+              <Link href="https://drive.google.com/file/d/1CpzQ8wOdTfqVPkZcMBwjtdfzGrEyyPkL/view">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                  group cursor-ne-resize
+                  px-20 py-16 rounded-lg
+                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                "
+                >
+                  <IoDocumentText size={48} className="text-offBlack" />
                 </a>
               </Link>
             </div>
@@ -383,6 +382,20 @@ export default function Contact() {
               </div>
 
               <div className="flex w-full justify-evenly">
+                <Link href="https://www.instagram.com/EvanCNavarro/">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                  group cursor-ne-resize
+                  px-20 py-16 rounded-lg
+                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                "
+                  >
+                    <SiInstagram size={48} className="text-offBlack" />
+                  </a>
+                </Link>
+                
                 <Link href="mailto:hey@ecn.dev" passHref={true}>
                   <a
                     target="_blank"
@@ -397,7 +410,7 @@ export default function Contact() {
                   </a>
                 </Link>
 
-                <Link href="https://monkeytype.com/profile/v81kVLEUJkTjMGdW4ptIkXG2DhD3">
+                <Link href="https://drive.google.com/file/d/1CpzQ8wOdTfqVPkZcMBwjtdfzGrEyyPkL/view">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -407,21 +420,7 @@ export default function Contact() {
                   hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
-                    <FaKeyboard size={48} className="text-offBlack" />
-                  </a>
-                </Link>
-
-                <Link href="https://www.instagram.com/EvanCNavarro/">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
-                  group cursor-ne-resize
-                  px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
-                "
-                  >
-                    <SiInstagram size={48} className="text-offBlack" />
+                    <IoDocumentText size={48} className="text-offBlack" />
                   </a>
                 </Link>
               </div>
