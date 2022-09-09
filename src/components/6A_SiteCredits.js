@@ -1,7 +1,23 @@
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { MdInfoOutline } from "react-icons/md";
 import { Tooltip, Grid } from "@nextui-org/react";
 // import { WorkTooltip } from "../components/WorkTooltip";
+
+import {
+  SiLinkedin,
+  SiGithub,
+  SiTwitter,
+  SiGmail,
+  SiInstagram,
+  SiFacebook,
+} from "react-icons/si";
+
+import {
+  FiChevronRight,
+  FiArrowUpRight,
+  FiCornerRightDown,
+} from "react-icons/fi";
 
 export default function SiteInformation() {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -56,9 +72,68 @@ export default function SiteInformation() {
         <Grid className="group cursor-help">
           <Tooltip
             color="invert"
-            content={`This site is: built with Next.js/React, styled with TailwindCSS, uses the "IBM Plex" font, and is deployed via Vercel.`}
+            content={
+              <div
+                className="
+                  flex flex-wrap 
+                  w-232 h-fit p-16
+                  text-16
+                "
+              >
+                <div className="flex flex-wrap">
+                  <span className="flex w-fit h-fit text-16 font-black align-middle items-center">
+                    [ Version 1.3 ]
+                  </span>
+                  <div className="flex w-fit h-fit align-middle items-center">
+                    <Link href="https://github.com/EvanCNavarro/portfolio/commits/main">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                          group cursor-ne-resize
+                          px-20 rounded-lg
+                          hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                        "
+                      >
+                        <span
+                          className="
+                            text-white font-bold underline decoration-white underline-offset-8
+                            transition ease-in-out duration-200
+                          "
+                        >
+                          <div className="underline decoration-white underline-offset-8">
+                            <SiGithub size={20} className="inline-block" />
+                            <FiArrowUpRight
+                              size={20}
+                              className="mx-4  inline-block transition ease-in-out duration-200"
+                            />
+                          </div>
+                        </span>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="w-full border-b-2 border-offTeal my-8" />
+
+                <div className="text-start flex flex-wrap">
+                  <span className="pb-24">
+                    <i className="">
+                      (This site built from scratch, by yours truly, during the
+                      months of Aug/Sept 2022)
+                    </i>
+                  </span>
+                  <span>
+                    — Coded in <b>Next.js/React</b>, styled with{" "}
+                    <b>TailwindCSS</b>, <b>&quot;IBM Plex&quot;</b> as default
+                    font, uses <b>React-Icons</b>, and is deployed on{" "}
+                    <b>Vercel</b>.
+                  </span>
+                </div>
+              </div>
+            }
             enterDelay={150}
-            placement={isDesktop ? "left" : "top"}
+            placement={"top"}
             className="cursor-help"
           >
             <div
@@ -75,10 +150,8 @@ export default function SiteInformation() {
                   size={20}
                   className="inline-block text-offBlack mr-8"
                 />
-                <span className="flex">Site Information</span>
+                <span className="flex">Website made with ❤️ by Evan</span>
               </div>
-              <span className="flex font-normal">—</span>
-              <span className="flex">Made with ❤️</span>
             </div>
           </Tooltip>
         </Grid>
