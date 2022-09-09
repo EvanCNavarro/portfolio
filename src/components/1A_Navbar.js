@@ -93,7 +93,7 @@ export default function Navbar() {
                     <span
                       className="
                       decoration-4 decoration-offTeal underline-offset-8
-                      group-hover:font-black
+                      font-black
                     "
                     >
                       About
@@ -114,7 +114,7 @@ export default function Navbar() {
                     <span
                       className="
                       decoration-4 decoration-offTeal underline-offset-8
-                      group-hover:font-black
+                      font-black
                     "
                     >
                       Projects
@@ -135,7 +135,7 @@ export default function Navbar() {
                     <span
                       className="
                       decoration-4 decoration-offTeal underline-offset-8
-                      group-hover:font-black
+                      font-black
                     "
                     >
                       Contact
