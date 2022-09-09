@@ -54,7 +54,7 @@ export default function Objectively() {
     <ContainerBlock>
       <Navbar />
       {/* <Banner /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
 
       <div
         className="

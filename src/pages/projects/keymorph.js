@@ -54,7 +54,7 @@ export default function Keymorph() {
     <ContainerBlock>
       <Navbar />
       {/* <Banner /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
 
       <div
         className="

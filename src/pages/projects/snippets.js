@@ -54,7 +54,7 @@ export default function Snippets() {
     <ContainerBlock>
       <Navbar />
       {/* <Banner /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
 
       <div
         className="
@@ -252,6 +252,8 @@ export default function Snippets() {
                   </span>
                 </div>
               </div>
+
+              {/* https://docs.google.com/document/d/1a5ZD8C95DwKne8c14lIcTnE4m4dLwRtPxKPB_ODXQRQ/edit */}
 
               {/* 
               <div
