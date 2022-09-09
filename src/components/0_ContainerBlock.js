@@ -5,7 +5,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: `Evan C. Navarro — Portfolio // Product Designer in Orlando, FL.`,
+    title: `Evan C. Navarro — Portfolio // Jr. Product Designer in Orlando, FL.`,
     description: `The personal portfolio website for Evan C. Navarro; showcasing all projects involved with, work experience, contact information, and downloadable resume.`,
     image: `/avatar.png`,
     type: `website`,

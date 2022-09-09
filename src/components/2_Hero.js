@@ -70,7 +70,7 @@ export default function Hero() {
 
                 <div
                   className="
-                  flex flex-wrap justify-center
+                  flex flex-wrap justify-center text-center
                   h-full w-full px-24 py-32 pb-40
                 bg-offWhite/50 rounded-b-3xl
                 "
@@ -95,7 +95,7 @@ export default function Hero() {
                         <div className="inline-block">
                           <span className="">I&apos;m a </span>
                           <span className="inline-block font-black text-offBlack text-center">
-                            Jr. Product Designer
+                            Product Designer
                             <span className="text-offGray font-normal">.</span>
                           </span>
                         </div>
@@ -122,7 +122,7 @@ export default function Hero() {
                         <span className="">
                           My name is <b className="text-offBlack">Evan</b>.
                           I&apos;m a{" "}
-                          <b className="text-offBlack">Jr. Product Designer</b>,
+                          <b className="text-offBlack">Product Designer</b>,
                           based in <b className="text-offBlack">Orlando, FL</b>.
                         </span>
                       </div>
