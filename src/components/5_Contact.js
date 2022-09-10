@@ -250,8 +250,8 @@ export default function Contact() {
                   className="
                   group
                   px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiLinkedin size={48} className="text-offBlack" />
@@ -265,8 +265,8 @@ export default function Contact() {
                   className="
                   group
                   px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiGithub size={48} className="text-offBlack" />
@@ -280,8 +280,8 @@ export default function Contact() {
                   className="
                   group
                   px-20 py-16 rounded-lg
-                  transition ease-in-out duration-200
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiTwitter size={48} className="text-offBlack" />
@@ -295,7 +295,8 @@ export default function Contact() {
                   className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiInstagram size={48} className="text-offBlack" />
@@ -309,7 +310,8 @@ export default function Contact() {
                   className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                 >
                   <SiGmail size={48} className="text-offBlack" />
@@ -321,10 +323,12 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
-                  group
-                  px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
-                "
+                    group
+                    px-20 py-16 rounded-lg
+                    transition ease-in-out duration-150
+
+                    hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
+                  "
                 >
                   <IoDocumentText size={48} className="text-offBlack" />
                 </a>
@@ -333,9 +337,9 @@ export default function Contact() {
           ) : (
             <div
               className="
-            flex flex-wrap justify-start
-            w-full
-            "
+                flex flex-wrap justify-start
+                w-full
+              "
             >
               <div className="flex w-full justify-evenly">
                 <Link href="https://www.linkedin.com/in/evancnavarro?trk=people-guest_people_search-card">
@@ -345,7 +349,8 @@ export default function Contact() {
                     className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
                     <SiLinkedin size={48} className="text-offBlack" />
@@ -359,7 +364,8 @@ export default function Contact() {
                     className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
                     <SiGithub size={48} className="text-offBlack" />
@@ -373,7 +379,8 @@ export default function Contact() {
                     className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
                     <SiTwitter size={48} className="text-offBlack" />
@@ -389,7 +396,8 @@ export default function Contact() {
                     className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
                     <SiInstagram size={48} className="text-offBlack" />
@@ -403,7 +411,8 @@ export default function Contact() {
                     className="
                   group
                   px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                  transition ease-in-out duration-150
+                  hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
                 "
                   >
                     <SiGmail size={48} className="text-offBlack" />
@@ -415,10 +424,11 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                  group
-                  px-20 py-16 rounded-lg
-                  hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
-                "
+                      group
+                      px-20 py-16 rounded-lg
+                      transition ease-in-out duration-150
+                      hover:bg-offWhite hover:shadow-lg hover:-translate-y-1
+                    "
                   >
                     <IoDocumentText size={48} className="text-offBlack" />
                   </a>

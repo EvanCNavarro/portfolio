@@ -57,7 +57,7 @@ export default function SiteInformation() {
                   text-16
                 "
               >
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap w-full justify-between">
                   <span className="flex w-fit h-fit text-16 font-black align-middle items-center">
                     [ Version 1.3 ]
                   </span>
@@ -67,9 +67,7 @@ export default function SiteInformation() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="
-                          group cursor-ne-resize
-                          px-20 rounded-lg
-                          hover:bg-offWhite hover:text-offWhite hover:shadow-lg hover:-translate-y-1
+                          group
                         "
                       >
                         <span
@@ -79,10 +77,13 @@ export default function SiteInformation() {
                           "
                         >
                           <div className="underline decoration-white underline-offset-8">
-                            <SiGithub size={20} className="inline-block" />
+                            <SiGithub
+                              size={20}
+                              className="inline-block group-hover:text-offTeal transition ease-in-out duration-200"
+                            />
                             <FiArrowUpRight
                               size={20}
-                              className="mx-4  inline-block transition ease-in-out duration-200"
+                              className="mx-4 inline-block transition ease-in-out duration-200 group-hover:text-offTeal"
                             />
                           </div>
                         </span>
